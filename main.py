@@ -178,7 +178,7 @@ def main():
             build_vector_store_incrementally()
             st.success("Knowledge base built/updated from Documents folder.")
 
-    st.title("Chat with PDF files using Gemini🤖")
+    st.title("Chat with PDF files🤖")
     st.write("Knowledge base loaded from Documents folder.")
     st.sidebar.button('Clear Chat History', on_click=clear_chat_history)
 
