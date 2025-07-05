@@ -1,0 +1,31 @@
+{
+  "mix": {
+    "92052bb0004b31b8a0f226685b1adbe9": {
+      "return": "{\"high_level_keywords\": [\"Financial analysis\", \"Cash flow management\", \"Comparative analysis\", \"Period-over-period analysis\"], \"low_level_keywords\": [\"Cash flow\", \"March\", \"April\", \"Monthly comparison\", \"Cash inflows\", \"Cash outflows\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "compare cash flow for march vs april"
+    },
+    "f5a6d536c55933901e3e7d225d351d00": {
+      "return": "{\"high_level_keywords\": [\"Operational metrics\", \"Performance analysis\", \"Monthly report\"], \"low_level_keywords\": [\"Snapshot\", \"April\", \"KPIs\", \"Uptime\", \"Downtime\", \"Customer satisfaction\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "give me a snapshot of operational metrics for the month of april"
+    },
+    "f842d7822ba44bd53f0854cc4949d0a9": {
+      "return": "{\"high_level_keywords\": [\"Financial Performance\", \"Employee Productivity\", \"Business Metrics\", \"Monthly Reporting\"], \"low_level_keywords\": [\"net revenue\", \"revenue per employee\", \"april\", \"employee\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "how much was the net revenue per employee in the month of april"
+    }
+  }
+}

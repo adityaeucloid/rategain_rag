@@ -9,5 +9,7 @@ wheels/
 # Virtual environments
 .venv
 .env
-
+venv/
+venv
 lumenai.json
+google-key.json

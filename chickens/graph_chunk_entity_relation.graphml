@@ -1,0 +1,1510 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d9" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d8" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d7" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d6" for="edge" attr.name="description" attr.type="string"/>
+<key id="d5" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Adara">
+  <data key="d0">Adara</data>
+  <data key="d1">organization</data>
+  <data key="d2">Adara is a business unit or product line whose revenue for April 2024 was not closed at the time of the report. Its performance metrics include 98% achievement vs. budget, 37% growth, and a churn rate of 19% for FY24."&gt;&lt;SEP&gt;Adara is a company or business unit, likely part of the Martech segment, with an estimated revenue of $3.67 million for April 2024, a 64% Gross Margin (GM), and $426k in EBITDA. Its performance is included in the consolidated financials.&lt;SEP&gt;Adara is a company whose financial and operational metrics, such as S&amp;M Multiple, GMPP, LTV:CAC, GRR, and NRR, are being analyzed. Its performance is detailed up to March/April 2024, and its lower Gross Revenue Retention (GRR) is attributed to its Media and Resellers business.&lt;SEP&gt;An organization or significant business unit whose financial and operational metrics are often reported separately or as a distinct addition to the company's main figures.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-1b53c536f7045ab8657a2f58d544d477&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="DaaS">
+  <data key="d0">DaaS</data>
+  <data key="d1">category</data>
+  <data key="d2">A business segment, likely 'Data as a Service', which accounts for 33% of the company's revenue mix.&lt;SEP&gt;DaaS (Data as a Service) is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.&lt;SEP&gt;DaaS (Data as a Service) is a major business segment of the company. In April 2024, its revenue was marginally lower by 4% against a budget of $2.22 million. It includes the Travel BI and Hospi BI businesses and showed a 24% year-over-year revenue growth.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Travel BI">
+  <data key="d0">Travel BI</data>
+  <data key="d1">category</data>
+  <data key="d2">A business intelligence unit listed in the company's key operational metrics for FY 24-25. It has a Gross Renewal Rate of 90% and a Net Renewal Rate of 141%.&lt;SEP&gt;Travel BI (Business Intelligence) is a business line within the DaaS segment. Its revenue for April was 5% below budget, primarily due to declines across products, except for the Air business. It experienced a 26% year-over-year revenue growth.&lt;SEP&gt;Travel BI is a business intelligence product line or business unit focused on the travel sector. The text details its client activities, including upsells (Agoda, Expedia), downsells (Booking.com), and churns (Amtrak, Hertz Australia).&lt;SEP&gt;Travel BI is a product or business unit with performance metrics showing 25% achievement vs. budget, -12% growth, and a 10% churn rate."&gt;</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-1b53c536f7045ab8657a2f58d544d477&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Hospi BI">
+  <data key="d0">Hospi BI</data>
+  <data key="d1">category</data>
+  <data key="d2">A business intelligence unit whose revenue in April 2024 was $277k, which is 3% higher than its budget. Its performance was driven by its Optima and Rateparity services.&lt;SEP&gt;Hospi BI (Hospitality Business Intelligence) is a business line within the DaaS segment. Its April 2024 revenue was $277k, which is 3% above budget, driven by performance in its Optima and Rateparity products.&lt;SEP&gt;Hospi BI is a business intelligence product line or business unit for the hospitality industry. Its performance ratios were negatively impacted by the churn of the client Archipelago. It has experienced client upsells (Scandic Hotels), downsells (Surya Hotels), and churns (Ceasers, Kempiski).</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Distribution">
+  <data key="d0">Distribution</data>
+  <data key="d1">category</data>
+  <data key="d2">A major business segment whose April 2024 revenue (excluding IHG) was $1.884 million, a 4% increase over budget. This segment includes Enterprise Connectivity and Channel Manager.&lt;SEP&gt;Distribution is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.&lt;SEP&gt;Distribution is a major business segment whose April 2024 revenue (excluding IHG) was $1.884 million, up 4% from budget. This growth was contributed by both its Enterprise Connectivity and Channel Manager businesses.&lt;SEP&gt;Distribution is a product or business unit with performance metrics showing 46% achievement vs. budget, -40% growth, and a 4% churn rate."&gt;</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-1b53c536f7045ab8657a2f58d544d477&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="MarTech">
+  <data key="d0">MarTech</data>
+  <data key="d1">category</data>
+  <data key="d2">MarTech (Marketing Technology) is a major business segment that includes BCV, MHS, and Adara. Its revenue (excluding Adara) for April 2024 was approximately $1.2 million, which was $135k over budget.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Thai &amp; Malaysian Airlines">
+  <data key="d0">Thai &amp; Malaysian Airlines</data>
+  <data key="d1">organization</data>
+  <data key="d2">Thai &amp; Malaysian Airlines are client airlines whose business led to volume expansion in the company's Air business product line, a part of Travel BI.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Red Lion">
+  <data key="d0">Red Lion</data>
+  <data key="d1">organization</data>
+  <data key="d2">A client organization of Optima. Its addition of new properties led to increased billing and revenue for Optima.&lt;SEP&gt;Red Lion is a client, likely a hotel group, whose addition of new properties resulted in increased billing and higher revenue for the Optima product within Hospi BI.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Grupo Hotelero Santa Fe">
+  <data key="d0">Grupo Hotelero Santa Fe</data>
+  <data key="d1">organization</data>
+  <data key="d2">A new client organization that was added to the Rateparity service, contributing to its revenue growth.&lt;SEP&gt;Grupo Hotelero Santa Fe is a new client added in April 2024 for the Rateparity product, contributing to its revenue growth.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Sabre">
+  <data key="d0">Sabre</data>
+  <data key="d1">organization</data>
+  <data key="d2">A client or partner organization. It received a credit note from Rateparity but also contributed to higher revenue for the Channel Manager business due to an increase in its properties.&lt;SEP&gt;Sabre is a client or partner that received a credit note from the Rateparity business but also contributed to higher revenue for the Channel Manager business due to an increase in properties.&lt;SEP&gt;Sabre is a technology provider for the travel industry and a key client. It is listed as an upsell account for both the RezGain and DHISCO business units.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Pegasus">
+  <data key="d0">Pegasus</data>
+  <data key="d1">organization</data>
+  <data key="d2">A customer of the Channel Manager unit. A billing reconciliation related to Pegasus from a previous year contributed $29k to the current period's revenue.&lt;SEP&gt;Pegasus is a client of the DHISCO business unit that is listed as having down-sold.&lt;SEP&gt;Pegasus is a customer of the Channel Manager business. A billing reconciliation for revenue belonging to the previous year ($29k) was processed for this account.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="SourceFuse">
+  <data key="d0">SourceFuse</data>
+  <data key="d1">organization</data>
+  <data key="d2">An organization that received an ad-hoc billing of $13k from the Channel Manager unit.&lt;SEP&gt;SourceFuse is a client that received an ad-hoc bill for $13k from the Channel Manager business in April 2024.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="IHG">
+  <data key="d0">IHG</data>
+  <data key="d1">organization</data>
+  <data key="d2">An organization whose revenue figures are explicitly excluded from the main Distribution segment's reported revenue.&lt;SEP&gt;IHG (InterContinental Hotels Group) is a client of the DHISCO business unit that is listed as having down-sold.&lt;SEP&gt;IHG (likely InterContinental Hotels Group) is a major client whose revenue is specifically excluded from the reported Distribution segment's financials, suggesting it is a significant and separately managed account.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="BCV">
+  <data key="d0">BCV</data>
+  <data key="d1">category</data>
+  <data key="d2">A business unit within the Martech segment. Its revenue was $38k higher than the forecast. Its NORAM (North American) division reported revenue of $484k.&lt;SEP&gt;BCV is a business unit or category. The text mentions an increase in its revenue and provides specific performance details for its NORAM division.&lt;SEP&gt;BCV is a business unit within the MarTech segment. Its NORAM division reported revenue of $484k, which was $38k above its forecast.&lt;SEP&gt;BCV is a business unit with clients in the hospitality sector. The report lists client downsells (Ritz Carlton), upsells (Namacolin Casino, Sonesta), and churns (Hilton Orlando, Waldorf Astoria).&lt;SEP&gt;BCV is a product or business unit with high growth of 228% but also a very high churn rate of 42%."&gt;</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec&lt;SEP&gt;chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-1b53c536f7045ab8657a2f58d544d477&lt;SEP&gt;chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="MHS">
+  <data key="d0">MHS</data>
+  <data key="d1">category</data>
+  <data key="d2">A business unit within the Martech segment. Its April 2024 revenue was $97k better than forecast, and its EBITDA was $152k, significantly higher than the budgeted $73k.&lt;SEP&gt;MHS is a business unit or category that reported revenue $97k better than forecast in April 2024, driven by higher Fee and Ad Revenues. Its April EBITDA was $152k against a budget of $73k, and its GOI for April was $733k.&lt;SEP&gt;MHS is a business unit within the MarTech segment. It reported a GOI (Gross Operating Income) of $733k for April and its revenue was $97k better than budget.&lt;SEP&gt;MHS is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-d09ac3e3f09017dcb184a797dcb82647&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Channel Manager">
+  <data key="d0">Channel Manager</data>
+  <data key="d1">category</data>
+  <data key="d2">A business unit within the Distribution segment. Its revenue exceeded the budget due to billing reconciliations for clients like Pegasus and increased business from Sabre.&lt;SEP&gt;Channel Manager is a business line within the Distribution segment. Its revenue was higher than budget due to billing reconciliations with clients like Pegasus and increased business from Sabre.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Enterprise Connectivity">
+  <data key="d0">Enterprise Connectivity</data>
+  <data key="d1">category</data>
+  <data key="d2">A business unit within the Distribution segment. Its April 2024 EBITDA was on par with the budget at $317k. Its expenses were impacted by a delay in a planned AWS migration.&lt;SEP&gt;Enterprise Connectivity is a business line within the Distribution segment. It contributed to the segment's revenue growth, and its EBITDA was on par with the budget.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Optima">
+  <data key="d0">Optima</data>
+  <data key="d1">category</data>
+  <data key="d2">A service or product line within Hospi BI. Its revenue increased by $7.5k due to expanded billing for the client Red Lion.&lt;SEP&gt;Optima is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.&lt;SEP&gt;Optima is a product or business unit with performance metrics showing 12% achievement vs. budget, -93% growth, and a 19% churn rate."&gt;&lt;SEP&gt;Optima is a product within the Hospi BI business line. Its revenue increased due to expanded business with the client Red Lion.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-1b53c536f7045ab8657a2f58d544d477&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Rateparity">
+  <data key="d0">Rateparity</data>
+  <data key="d1">category</data>
+  <data key="d2">A service or product line within Hospi BI. Its revenue increased by $4k after acquiring a new client, Grupo Hotelero Santa Fe, though this was partially offset by a credit note issued to Sabre.&lt;SEP&gt;Rateparity is a product within the Hospi BI business line. Its revenue increased due to the addition of a new client, Grupo Hotelero Santa Fe.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Air business">
+  <data key="d0">Air business</data>
+  <data key="d1">category</data>
+  <data key="d2">Air business is a product line within the Travel BI segment. It experienced volume expansion due to business from clients Thai &amp; Malaysian Airlines.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="April FY'25">
+  <data key="d0">April FY'25</data>
+  <data key="d1">event</data>
+  <data key="d2">A specific financial period (April of Fiscal Year 2025) used as a benchmark for tracking GOI performance.&lt;SEP&gt;April FY'25 is the first month of the 2025 fiscal year and serves as the central reporting period for all financial performance data presented in the document.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Smart Technology for the Travel Industry">
+  <data key="d0">Smart Technology for the Travel Industry</data>
+  <data key="d1">organization</data>
+  <data key="d2">The parent company or division for which the 'MIS – April FY’25' report is prepared. It operates in the travel technology sector with business segments like DaaS, Distribution, and MarTech.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="MIS Report (April FY'25)">
+  <data key="d0">MIS Report (April FY'25)</data>
+  <data key="d1">event</data>
+  <data key="d2">A Management Information System report for the period of April in the 2025 fiscal year. It details the financial and operational performance of the company's various business segments.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Consolidated Financials">
+  <data key="d0">Consolidated Financials</data>
+  <data key="d1">category</data>
+  <data key="d2">Represents the total financial performance of the company, including all its business units like Adara, DaaS, Distribution, and Martech. For April FY'25, the gross revenue was $9,870k with an EBITDA of $1,410k.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="BCV NORAM">
+  <data key="d0">BCV NORAM</data>
+  <data key="d1">organization</data>
+  <data key="d2">BCV NORAM is a regional division of the BCV business unit, likely covering North America. It reported revenue of $484k, which was $38k above forecast, with a Gross Margin of 29% and an EBITDA of $9k.&lt;SEP&gt;The North American division of the BCV business unit. It reported revenue of $484k for April, which was $38k above its forecast.&lt;SEP&gt;The North American division of the BCV business unit. In April 2024, it reported revenue of $484k, which was $38k above its forecast, with a Gross Margin of 29% and an EBITDA of $9k.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-d09ac3e3f09017dcb184a797dcb82647&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="AWS">
+  <data key="d0">AWS</data>
+  <data key="d1">organization</data>
+  <data key="d2">Amazon Web Services (AWS) is a cloud computing provider. A delay in migrating to AWS caused higher expenses for the Enterprise Connectivity business.&lt;SEP&gt;Amazon Web Services, a cloud hosting provider. A delay in migrating services to AWS caused higher-than-budgeted hosting expenses for the Enterprise Connectivity unit.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Gross Operating Income (GOI)">
+  <data key="d0">Gross Operating Income (GOI)</data>
+  <data key="d1">category</data>
+  <data key="d2">A key financial performance metric, specifically mentioned for the MHS business unit. The GOI for April was $733k.</data>
+  <data key="d3">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="NORAM">
+  <data key="d0">NORAM</data>
+  <data key="d1">geo</data>
+  <data key="d2">NORAM is a geographical region, likely an abbreviation for North America, where the BCV division operates.</data>
+  <data key="d3">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Sales">
+  <data key="d0">Sales</data>
+  <data key="d1">category</data>
+  <data key="d2">Sales is a functional department or cost category associated with MHS where costs increased in comparison to forecasts.</data>
+  <data key="d3">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="AM">
+  <data key="d0">AM</data>
+  <data key="d1">category</data>
+  <data key="d2">AM, likely standing for Account Management, is a functional department or cost category associated with MHS where costs increased in comparison to forecasts.</data>
+  <data key="d3">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Finance">
+  <data key="d0">Finance</data>
+  <data key="d1">category</data>
+  <data key="d2">Finance is a functional department or cost category associated with MHS where costs increased in comparison to forecasts.</data>
+  <data key="d3">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="GOI">
+  <data key="d0">GOI</data>
+  <data key="d1">category</data>
+  <data key="d2">Gross Operating Income, a financial performance metric. The text states that the GOI for April was $733k, which represents 47% of the GOI for April FY'25.</data>
+  <data key="d3">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="EBITDA">
+  <data key="d0">EBITDA</data>
+  <data key="d1">category</data>
+  <data key="d2">Earnings Before Interest, Taxes, Depreciation, and Amortization, a key profitability metric. MHS's April EBITDA was $152k, and BCV NORAM's was $9k.</data>
+  <data key="d3">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Fee and Ad Revenues">
+  <data key="d0">Fee and Ad Revenues</data>
+  <data key="d1">category</data>
+  <data key="d2">Specific revenue streams that were higher than forecasted and contributed to MHS's overall revenue performance in April 2024.</data>
+  <data key="d3">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Apr.'24">
+  <data key="d0">Apr.'24</data>
+  <data key="d1">event</data>
+  <data key="d2">A specific financial reporting period (April 2024) for which MHS's revenue and EBITDA performance was detailed.</data>
+  <data key="d3">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Martech">
+  <data key="d0">Martech</data>
+  <data key="d1">category</data>
+  <data key="d2">A major business segment whose April 2024 revenue, excluding Adara, was approximately $1.2 million. This segment includes the MHS and BCV business units.&lt;SEP&gt;Martech is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.&lt;SEP&gt;Martech is a product or business unit with strong performance, showing 96% achievement vs. budget, 42% growth, and a 25% churn rate."&gt;</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-1b53c536f7045ab8657a2f58d544d477&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="RG">
+  <data key="d0">RG</data>
+  <data key="d1">category</data>
+  <data key="d2">A business unit or category listed in the company's key operational metrics for FY 24-25. It has an overall Gross Renewal Rate of 88% and a Net Renewal Rate of 114%.</data>
+  <data key="d3">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="April 2024">
+  <data key="d0">April 2024</data>
+  <data key="d1">event</data>
+  <data key="d2">The specific monthly reporting period for which detailed financial performance data is provided for various business units like Hospi BI, Distribution, and Martech.</data>
+  <data key="d3">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="YTD '2025">
+  <data key="d0">YTD '2025</data>
+  <data key="d1">event</data>
+  <data key="d2">The 'Year-to-Date 2025' reporting period used for the Growth and Margins Snapshot, which summarizes key performance indicators like revenue growth, margins, and revenue mix.</data>
+  <data key="d3">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="FY 24-25">
+  <data key="d0">FY 24-25</data>
+  <data key="d1">event</data>
+  <data key="d2">The fiscal year for which key operational metrics, such as renewal rates and monetization percentages, are provided for all major business units.&lt;SEP&gt;The fiscal year period from 2024 to 2025, which serves as the primary timeframe for budgeting, sales achievement, and growth analysis in the report."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="DHISCO">
+  <data key="d0">DHISCO</data>
+  <data key="d1">category</data>
+  <data key="d2">DHISCO is a business unit, likely focused on distribution or connectivity for the hospitality industry. Its clients include major hotel and travel companies, with noted downsells (IHG, Expedia) and upsells (Marriott, Accor, Sabre, Choice, Hyatt).</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="RezGain">
+  <data key="d0">RezGain</data>
+  <data key="d1">category</data>
+  <data key="d2">RezGain is a business unit that has experienced account churn from Archipelago and Ayenda. It also has successful upsells with clients like Sabre.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Archipelago">
+  <data key="d0">Archipelago</data>
+  <data key="d1">organization</data>
+  <data key="d2">Archipelago is a client company whose churn has significantly impacted the performance of both the Hospi BI and RezGain business units.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Expedia">
+  <data key="d0">Expedia</data>
+  <data key="d1">organization</data>
+  <data key="d2">Expedia is a major travel company that is a client of multiple business units. It is listed as having down-sold from DHISCO and up-sold with Travel BI.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Marriott">
+  <data key="d0">Marriott</data>
+  <data key="d1">organization</data>
+  <data key="d2">Marriott is a major hotel company and a client of the DHISCO business unit, where it is listed as an upsell.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Choice Hotels">
+  <data key="d0">Choice Hotels</data>
+  <data key="d1">organization</data>
+  <data key="d2">Choice Hotels is a hospitality company that is a client of both the Hospi BI and DHISCO business units, showing an upsell in both categories.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Amtrak">
+  <data key="d0">Amtrak</data>
+  <data key="d1">organization</data>
+  <data key="d2">Amtrak is a passenger railroad service that was a client of the Travel BI business unit and is listed as having churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Hilton Orlando">
+  <data key="d0">Hilton Orlando</data>
+  <data key="d1">organization</data>
+  <data key="d2">Hilton Orlando is a hotel property and a client of the BCV business unit that is listed as having churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Booking.com">
+  <data key="d0">Booking.com</data>
+  <data key="d1">organization</data>
+  <data key="d2">Booking.com is a travel company listed as a client of the Travel BI business unit that has down-sold, meaning it reduced its spending.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Budget Truck Rentals">
+  <data key="d0">Budget Truck Rentals</data>
+  <data key="d1">organization</data>
+  <data key="d2">Budget Truck Rentals is a client of the Travel BI business unit that is listed as having down-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Avis Mexico">
+  <data key="d0">Avis Mexico</data>
+  <data key="d1">organization</data>
+  <data key="d2">Avis Mexico is a car rental company and a client of the Travel BI business unit that is listed as having down-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Hertz Franchisee">
+  <data key="d0">Hertz Franchisee</data>
+  <data key="d1">organization</data>
+  <data key="d2">Hertz Franchisee is a client of the Travel BI business unit that is listed as having down-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Surya Hotels">
+  <data key="d0">Surya Hotels</data>
+  <data key="d1">organization</data>
+  <data key="d2">Surya Hotels is a hotel group and a client of the Hospi BI business unit that is listed as having down-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Golden Sands Hotel Apartment">
+  <data key="d0">Golden Sands Hotel Apartment</data>
+  <data key="d1">organization</data>
+  <data key="d2">Golden Sands Hotel Apartment is a hospitality client of the Hospi BI business unit that is listed as having down-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Holton">
+  <data key="d0">Holton</data>
+  <data key="d1">organization</data>
+  <data key="d2">Holton is a client of the DHISCO business unit that is listed as having down-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Ritz Carlton">
+  <data key="d0">Ritz Carlton</data>
+  <data key="d1">organization</data>
+  <data key="d2">Ritz Carlton is a luxury hotel brand and a client of the BCV business unit that is listed as having down-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Adero Scottsdale">
+  <data key="d0">Adero Scottsdale</data>
+  <data key="d1">organization</data>
+  <data key="d2">Adero Scottsdale is a hospitality property and a client of the BCV business unit that is listed as having down-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Westin Seattle">
+  <data key="d0">Westin Seattle</data>
+  <data key="d1">organization</data>
+  <data key="d2">Westin Seattle is a hotel property and a client of the BCV business unit that is listed as having down-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Agoda">
+  <data key="d0">Agoda</data>
+  <data key="d1">organization</data>
+  <data key="d2">Agoda is an online travel agency and a client of the Travel BI business unit that is listed as having up-sold, meaning it increased its spending.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="TUI">
+  <data key="d0">TUI</data>
+  <data key="d1">organization</data>
+  <data key="d2">TUI is a travel and tourism company and a client of the Travel BI business unit that is listed as having up-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Klook">
+  <data key="d0">Klook</data>
+  <data key="d1">organization</data>
+  <data key="d2">Klook is a travel booking platform and a client of the Travel BI business unit that is listed as having up-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Scandic Hotels">
+  <data key="d0">Scandic Hotels</data>
+  <data key="d1">organization</data>
+  <data key="d2">Scandic Hotels is a hotel chain and a client of the Hospi BI business unit that is listed as having up-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="IDeasHQ">
+  <data key="d0">IDeasHQ</data>
+  <data key="d1">organization</data>
+  <data key="d2">IDeasHQ is a client of the Hospi BI business unit that is listed as having up-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Redlion">
+  <data key="d0">Redlion</data>
+  <data key="d1">organization</data>
+  <data key="d2">Redlion is a hotel company and a client of the Hospi BI business unit that is listed as having up-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Accor">
+  <data key="d0">Accor</data>
+  <data key="d1">organization</data>
+  <data key="d2">Accor is a multinational hospitality company and a client of the DHISCO business unit that is listed as having up-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Hyatt">
+  <data key="d0">Hyatt</data>
+  <data key="d1">organization</data>
+  <data key="d2">Hyatt is a multinational hospitality company and a client of the DHISCO business unit that is listed as having up-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Namacolin Casino">
+  <data key="d0">Namacolin Casino</data>
+  <data key="d1">organization</data>
+  <data key="d2">Namacolin Casino is a client of the BCV business unit that is listed as having up-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Sonesta">
+  <data key="d0">Sonesta</data>
+  <data key="d1">organization</data>
+  <data key="d2">Sonesta is a hotel company and a client of the BCV business unit that is listed as having up-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Hotel Landy">
+  <data key="d0">Hotel Landy</data>
+  <data key="d1">organization</data>
+  <data key="d2">Hotel Landy is a hotel property and a client of the BCV business unit that is listed as having up-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Royal Sonesta">
+  <data key="d0">Royal Sonesta</data>
+  <data key="d1">organization</data>
+  <data key="d2">Royal Sonesta is a hotel brand and a client of the BCV business unit that is listed as having up-sold.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Rentcars">
+  <data key="d0">Rentcars</data>
+  <data key="d1">organization</data>
+  <data key="d2">Rentcars was a car rental client of the Travel BI business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Otravo">
+  <data key="d0">Otravo</data>
+  <data key="d1">organization</data>
+  <data key="d2">Otravo was an online travel client of the Travel BI business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Sovoy Cars">
+  <data key="d0">Sovoy Cars</data>
+  <data key="d1">organization</data>
+  <data key="d2">Sovoy Cars was a car rental client of the Travel BI business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Aurinkomatkat">
+  <data key="d0">Aurinkomatkat</data>
+  <data key="d1">organization</data>
+  <data key="d2">Aurinkomatkat was a tour operator client of the Travel BI business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Hertz Australia">
+  <data key="d0">Hertz Australia</data>
+  <data key="d1">organization</data>
+  <data key="d2">Hertz Australia was a car rental client of the Travel BI business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Action Car Rental">
+  <data key="d0">Action Car Rental</data>
+  <data key="d1">organization</data>
+  <data key="d2">Action Car Rental was a client of the Travel BI business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Ceasers">
+  <data key="d0">Ceasers</data>
+  <data key="d1">organization</data>
+  <data key="d2">Ceasers was a hospitality and entertainment client of the Hospi BI business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="NAU Hotels">
+  <data key="d0">NAU Hotels</data>
+  <data key="d1">organization</data>
+  <data key="d2">NAU Hotels was a hotel group client of the Hospi BI business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Omega Hotel Management">
+  <data key="d0">Omega Hotel Management</data>
+  <data key="d1">organization</data>
+  <data key="d2">Omega Hotel Management was a client of the Hospi BI business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="The Reputation Lab">
+  <data key="d0">The Reputation Lab</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Reputation Lab was a client of the Hospi BI business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Kempiski">
+  <data key="d0">Kempiski</data>
+  <data key="d1">organization</data>
+  <data key="d2">Kempiski was a luxury hotel group client of the Hospi BI business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Ayenda Account">
+  <data key="d0">Ayenda Account</data>
+  <data key="d1">organization</data>
+  <data key="d2">Ayenda Account was a client of the RezGain business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Waldorf Astoria">
+  <data key="d0">Waldorf Astoria</data>
+  <data key="d1">organization</data>
+  <data key="d2">Waldorf Astoria was a luxury hotel client of the BCV business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Signia by Hilton">
+  <data key="d0">Signia by Hilton</data>
+  <data key="d1">organization</data>
+  <data key="d2">Signia by Hilton was a hotel brand client of the BCV business unit that has churned.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="PG-OTA">
+  <data key="d0">PG-OTA</data>
+  <data key="d1">category</data>
+  <data key="d2">PG-OTA is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="PG-Car">
+  <data key="d0">PG-Car</data>
+  <data key="d1">category</data>
+  <data key="d2">PG-Car is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Rev.AI">
+  <data key="d0">Rev.AI</data>
+  <data key="d1">category</data>
+  <data key="d2">Rev.AI is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.&lt;SEP&gt;Rev.AI is a product or business unit with performance metrics showing 47% achievement vs. budget, 0% growth, and a 36% churn rate."&gt;</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="PG-Air">
+  <data key="d0">PG-Air</data>
+  <data key="d1">category</data>
+  <data key="d2">PG-Air is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="PG-Cruise">
+  <data key="d0">PG-Cruise</data>
+  <data key="d1">category</data>
+  <data key="d2">PG-Cruise is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Parity">
+  <data key="d0">Parity</data>
+  <data key="d1">category</data>
+  <data key="d2">Parity is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Channel Mng">
+  <data key="d0">Channel Mng</data>
+  <data key="d1">category</data>
+  <data key="d2">Channel Mng (Channel Management) is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Ent. Conn.">
+  <data key="d0">Ent. Conn.</data>
+  <data key="d1">category</data>
+  <data key="d2">Ent. Conn. (Enterprise Connectivity) is a business unit or product line whose financial performance for FY 23-24, including revenue, churn, and upsell, is detailed in the report.</data>
+  <data key="d3">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Daas">
+  <data key="d0">Daas</data>
+  <data key="d1">category</data>
+  <data key="d2">Daas is a product or business unit with performance metrics showing 28% achievement vs. budget, -38% growth, and a 12% churn rate."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="HospiBI">
+  <data key="d0">HospiBI</data>
+  <data key="d1">category</data>
+  <data key="d2">HospiBI is a product or business unit with performance metrics showing 53% achievement vs. budget, -67% growth, and a 28% churn rate."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Rate Parity">
+  <data key="d0">Rate Parity</data>
+  <data key="d1">category</data>
+  <data key="d2">Rate Parity is a high-performing product or business unit, achieving 140% of its budget with 29% growth. It has a 33% churn rate."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="PG - OTA">
+  <data key="d0">PG - OTA</data>
+  <data key="d1">category</data>
+  <data key="d2">PG - OTA is a product or business unit with performance metrics showing 28% achievement vs. budget, 16% growth, and a 7% churn rate."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="PG - Car">
+  <data key="d0">PG - Car</data>
+  <data key="d1">category</data>
+  <data key="d2">PG - Car is a product or business unit notable for its extremely high growth of 693%, though its achievement vs. budget is low at 8%. It has a low churn rate of 3%."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="PG - Air">
+  <data key="d0">PG - Air</data>
+  <data key="d1">category</data>
+  <data key="d2">PG - Air is a product or business unit with performance metrics showing 11% achievement vs. budget, -72% growth, and a 29% churn rate."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="PG - Cruise">
+  <data key="d0">PG - Cruise</data>
+  <data key="d1">category</data>
+  <data key="d2">PG - Cruise is a non-performing product or business unit, showing 0% achievement vs. budget and -100% growth."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Channel Manager OTA">
+  <data key="d0">Channel Manager OTA</data>
+  <data key="d1">category</data>
+  <data key="d2">Channel Manager OTA is a top-performing product or business unit, achieving 158% of its budget with 58% growth. It has an 8% churn rate."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Enterprise Connectivity OTA">
+  <data key="d0">Enterprise Connectivity OTA</data>
+  <data key="d1">category</data>
+  <data key="d2">Enterprise Connectivity OTA is a product or business unit with performance metrics showing 25% achievement vs. budget, -84% growth, and a 3% churn rate."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="GDS">
+  <data key="d0">GDS</data>
+  <data key="d1">category</data>
+  <data key="d2">GDS is a high-performing product or business unit, achieving 109% of its budget with 57% revenue growth. It has a 3% churn rate."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Content">
+  <data key="d0">Content</data>
+  <data key="d1">category</data>
+  <data key="d2">Content is a non-performing product or business unit, showing 0% achievement vs. budget and -100% growth."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Content.AI">
+  <data key="d0">Content.AI</data>
+  <data key="d1">category</data>
+  <data key="d2">Content.AI is a product or business unit with 0% across all reported performance metrics, suggesting it may be a new or inactive product."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="UNO">
+  <data key="d0">UNO</data>
+  <data key="d1">category</data>
+  <data key="d2">UNO is a product or business unit with exceptionally high growth of 6594% and 840% revenue growth. It has a 0% churn rate."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="MHS/Demand Booster">
+  <data key="d0">MHS/Demand Booster</data>
+  <data key="d1">category</data>
+  <data key="d2">MHS/Demand Booster is a product or business unit with performance metrics showing 65% achievement vs. budget, 49% growth, and a 7% churn rate."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Key Performance Indicators">
+  <data key="d0">Key Performance Indicators</data>
+  <data key="d1">category</data>
+  <data key="d2">Key Performance Indicators (KPIs) are the framework used to measure performance in the report. This includes metrics like new sales achievement, growth, and churn, which are color-coded (Green, Yellow, Red) based on performance thresholds."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Total">
+  <data key="d0">Total</data>
+  <data key="d1">category</data>
+  <data key="d2">Total represents the aggregated performance metrics for all the business units listed in the report. It shows an overall 80% achievement vs. budget, 24% growth, and 12% churn."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Revenue">
+  <data key="d0">Revenue</data>
+  <data key="d1">category</data>
+  <data key="d2">A primary financial performance metric used throughout the report. It is analyzed in terms of GAAP Basis, growth percentage (FY25 vs FY24), and as 'New Revenue'."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Churn">
+  <data key="d0">Churn</data>
+  <data key="d1">category</data>
+  <data key="d2">A key performance indicator measuring the percentage of revenue or customers lost over a specific period (FY 24 + Apr'24). The report defines a 'Red' condition for churn rates greater than 15%."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Monetization">
+  <data key="d0">Monetization</data>
+  <data key="d1">category</data>
+  <data key="d2">A performance metric listed for each business unit, likely representing the effectiveness of generating revenue from its user base or products."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="New Sales Achievement">
+  <data key="d0">New Sales Achievement</data>
+  <data key="d1">category</data>
+  <data key="d2">A key performance indicator that measures a business unit's sales performance against its budget for FY25. Performance is color-coded: &gt;100% is 'Green', &lt;80% is 'Red'."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Growth">
+  <data key="d0">Growth</data>
+  <data key="d1">category</data>
+  <data key="d2">A key performance indicator measuring the percentage change in performance, specifically for new sales and revenue (FY25 vs FY24). Positive growth is 'Green', negative is 'Red'."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="GRR">
+  <data key="d0">GRR</data>
+  <data key="d1">category</data>
+  <data key="d2">Gross Revenue Retention (GRR) is a financial metric presented in the report, showing the percentage of recurring revenue retained from existing customers over time."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="NRR">
+  <data key="d0">NRR</data>
+  <data key="d1">category</data>
+  <data key="d2">Net Revenue Retention (NRR) is a financial metric that measures the change in recurring revenue from existing customers, including expansions, downgrades, and cancellations."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Others (under Rate Parity)">
+  <data key="d0">Others (under Rate Parity)</data>
+  <data key="d1">category</data>
+  <data key="d2">A business unit or product category listed in the main performance table that shows 0% achievement vs. budget and -100% growth, indicating it is inactive or being phased out."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<node id="Others (under Content)">
+  <data key="d0">Others (under Content)</data>
+  <data key="d1">category</data>
+  <data key="d2">A business unit or product category within the Distribution group. It shows 0% achievement vs. budget and -100% growth, but has a low 3% churn rate."&gt;</data>
+  <data key="d3">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d4">unknown_source</data>
+</node>
+<edge source="Adara" target="MarTech">
+  <data key="d5">9.0</data>
+  <data key="d6">Adara is a significant component of the MarTech segment, with its specific financial metrics (revenue, GM, EBITDA) being included in the company's consolidated results.</data>
+  <data key="d7">Business Unit, Financial Contribution, Acquisition</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Adara" target="Martech">
+  <data key="d5">15.0</data>
+  <data key="d6">Adara is an entity whose financial results are explicitly excluded from the primary Martech segment's reporting, indicating it is tracked as a separate business or a recent acquisition.&lt;SEP&gt;Martech is a business unit or product line whose financial performance is reported as part of Adara's consolidated financial data.</data>
+  <data key="d7">corporate structure, financial reporting&lt;SEP&gt;reporting structure, business separation</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Adara" target="RG">
+  <data key="d5">7.0</data>
+  <data key="d6">Adara and RG are listed as distinct business units in the key operational metrics table for FY 24-25, with their performance metrics tracked separately.</data>
+  <data key="d7">peer comparison, business structure, performance metrics</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Adara" target="Travel BI">
+  <data key="d5">8.0</data>
+  <data key="d6">Travel BI is a business unit of Adara, and its client performance (upsell, downsell, churn) is being reported as part of Adara's overall business analysis.</data>
+  <data key="d7">corporate structure, performance reporting</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Adara" target="Hospi BI">
+  <data key="d5">8.0</data>
+  <data key="d6">Hospi BI is a business unit of Adara, and its performance, including the impact of the Archipelago churn, is a key part of Adara's overall business report.</data>
+  <data key="d7">corporate structure, performance reporting</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Adara" target="PG-OTA">
+  <data key="d5">8.0</data>
+  <data key="d6">PG-OTA is a business unit or product line whose financial performance is reported as part of Adara's consolidated financial data.</data>
+  <data key="d7">corporate structure, financial reporting</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Adara" target="Rev.AI">
+  <data key="d5">8.0</data>
+  <data key="d6">Rev.AI is a business unit or product line whose financial performance is reported as part of Adara's consolidated financial data.</data>
+  <data key="d7">corporate structure, financial reporting</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Adara" target="DHISCO">
+  <data key="d5">8.0</data>
+  <data key="d6">DHISCO is a business unit whose client activities (upsell, downsell) are reported as part of Adara's overall business analysis.</data>
+  <data key="d7">corporate structure, performance reporting</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Adara" target="BCV">
+  <data key="d5">8.0</data>
+  <data key="d6">BCV is a business unit whose client activities (upsell, downsell, churn) are reported as part of Adara's overall business analysis.</data>
+  <data key="d7">corporate structure, performance reporting</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Adara" target="RezGain">
+  <data key="d5">8.0</data>
+  <data key="d6">RezGain is a business unit whose client churn is reported as part of Adara's overall business analysis.</data>
+  <data key="d7">corporate structure, performance reporting</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Adara" target="Total">
+  <data key="d5">10.0</data>
+  <data key="d6">The 'Total' performance figures are impacted by 'Adara', as a note specifies that Adara's revenue for April 2024 is not yet included in the calculations.</data>
+  <data key="d7">data aggregation, financial reporting</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="DaaS" target="Travel BI">
+  <data key="d5">10.0</data>
+  <data key="d6">Travel BI is a core business unit within the DaaS segment. The performance and financial results of Travel BI are a major component of the overall DaaS segment's reporting.</data>
+  <data key="d7">Business Unit, Organizational Structure, Financial Performance</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="DaaS" target="Hospi BI">
+  <data key="d5">10.0</data>
+  <data key="d6">Hospi BI is a core business unit within the DaaS segment. The performance and financial results of Hospi BI are a major component of the overall DaaS segment's reporting.</data>
+  <data key="d7">Business Unit, Organizational Structure, Financial Performance</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="DaaS" target="April FY'25">
+  <data key="d5">10.0</data>
+  <data key="d6">All reported financial metrics for the DaaS segment, including revenue, costs, and EBITDA against budget, are specifically for the April FY'25 reporting period.</data>
+  <data key="d7">Reporting Period, Financial Performance, Time-based Analysis</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="DaaS" target="Consolidated Financials">
+  <data key="d5">8.0</data>
+  <data key="d6">The financial results of the DaaS segment, including its revenue and EBITDA, are a component of the company's overall Consolidated Financials.</data>
+  <data key="d7">Financial Contribution, Business Performance, Corporate Roll-up</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="DaaS" target="Martech">
+  <data key="d5">9.0</data>
+  <data key="d6">Martech and DaaS are two of the three main business segments that constitute the company's revenue mix for YTD '2025, with Martech at 48% and DaaS at 33%.</data>
+  <data key="d7">revenue mix, business segmentation, corporate structure</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="DaaS" target="Distribution">
+  <data key="d5">9.0</data>
+  <data key="d6">Distribution and DaaS are two of the three main business segments that constitute the company's revenue mix for YTD '2025, with Distribution at 19% and DaaS at 33%.</data>
+  <data key="d7">revenue mix, business segmentation, corporate structure</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Travel BI" target="FY 24-25">
+  <data key="d5">9.0</data>
+  <data key="d6">The key operational metrics for the Travel BI unit, such as its 90% Gross Renewal Rate, are reported for the FY 24-25 period.</data>
+  <data key="d7">operational metrics, performance reporting, fiscal year</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Travel BI" target="Hospi BI">
+  <data key="d5">8.0</data>
+  <data key="d6">Travel BI and Hospi BI are listed as peer business units in the key operational metrics table for FY 24-25, allowing for a comparative analysis of their performance metrics like renewal rates.</data>
+  <data key="d7">peer comparison, business structure, performance metrics</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Travel BI" target="Expedia">
+  <data key="d5">7.0</data>
+  <data key="d6">Expedia is a client of the Travel BI business unit and is listed as an example of a successful upsell.</data>
+  <data key="d7">client relationship, revenue growth, upsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Travel BI" target="Booking.com">
+  <data key="d5">7.0</data>
+  <data key="d6">Booking.com is a client of the Travel BI business unit and is listed as an example of a downsell, indicating a reduction in revenue from this client.</data>
+  <data key="d7">client relationship, revenue change, downsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Travel BI" target="Agoda">
+  <data key="d5">7.0</data>
+  <data key="d6">Agoda is a client of the Travel BI business unit and is listed as an example of an upsell, indicating an increase in revenue from this client.</data>
+  <data key="d7">client relationship, revenue growth, upsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Travel BI" target="Amtrak">
+  <data key="d5">8.0</data>
+  <data key="d6">Amtrak was a client of the Travel BI business unit and is listed as an example of churn, indicating a complete loss of revenue from this client.</data>
+  <data key="d7">client relationship, client loss, churn</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Hospi BI" target="Optima">
+  <data key="d5">10.0</data>
+  <data key="d6">Optima is a service line within the Hospi BI business unit, and its performance, particularly with the client Red Lion, directly contributed to Hospi BI's overall revenue exceeding its budget.</data>
+  <data key="d7">business structure, product performance, revenue contribution</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Hospi BI" target="Rateparity">
+  <data key="d5">9.0</data>
+  <data key="d6">Rateparity is a service line within the Hospi BI business unit. Its acquisition of a new client contributed to Hospi BI's positive revenue performance.</data>
+  <data key="d7">business structure, new client acquisition, revenue contribution</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Hospi BI" target="April 2024">
+  <data key="d5">10.0</data>
+  <data key="d6">The financial performance of Hospi BI, including its revenue of $277k and comparison to budget, is specifically reported for the period of April 2024.</data>
+  <data key="d7">financial reporting, performance period</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Hospi BI" target="Archipelago">
+  <data key="d5">10.0</data>
+  <data key="d6">The churn of the client Archipelago is explicitly stated to have negatively impacted the performance ratios of the Hospi BI business unit.</data>
+  <data key="d7">client impact, performance metric, churn</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Hospi BI" target="Choice Hotels">
+  <data key="d5">7.0</data>
+  <data key="d6">Choice Hotels is a client of the Hospi BI business unit and is listed as an example of a successful upsell.</data>
+  <data key="d7">client relationship, revenue growth, upsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Hospi BI" target="Surya Hotels">
+  <data key="d5">7.0</data>
+  <data key="d6">Surya Hotels is a client of the Hospi BI business unit and is listed as an example of a downsell.</data>
+  <data key="d7">client relationship, revenue change, downsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Hospi BI" target="Scandic Hotels">
+  <data key="d5">7.0</data>
+  <data key="d6">Scandic Hotels is a client of the Hospi BI business unit and is listed as an example of an upsell.</data>
+  <data key="d7">client relationship, revenue growth, upsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Hospi BI" target="Ceasers">
+  <data key="d5">8.0</data>
+  <data key="d6">Ceasers was a client of the Hospi BI business unit and is listed as an example of churn.</data>
+  <data key="d7">client relationship, client loss, churn</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Distribution" target="Channel Manager">
+  <data key="d5">19.0</data>
+  <data key="d6">Channel Manager is a business unit that operates under the broader Distribution segment, and its performance is a key component of the segment's overall revenue.&lt;SEP&gt;Channel Manager is a key business line within the Distribution segment, and its positive revenue performance contributed to the segment's overall growth against budget.</data>
+  <data key="d7">Business Unit, Revenue Contribution, Organizational Structure&lt;SEP&gt;business structure, segment contribution</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Distribution" target="IHG">
+  <data key="d5">13.0</data>
+  <data key="d6">IHG is a major client whose financial data is explicitly excluded from the main Distribution segment's revenue reporting, indicating a significant and distinct relationship that is handled separately.&lt;SEP&gt;IHG is an organization whose revenue is specifically excluded from the reported financial results of the Distribution segment, indicating a distinct reporting arrangement.</data>
+  <data key="d7">Major Client, Financial Reporting, Special Account&lt;SEP&gt;reporting exclusion, business relationship</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Distribution" target="Enterprise Connectivity">
+  <data key="d5">19.0</data>
+  <data key="d6">Enterprise Connectivity is a business unit that operates under the broader Distribution segment, and its performance is a key component of the segment's overall revenue.&lt;SEP&gt;Enterprise Connectivity is a key business line within the Distribution segment, and its performance contributed to the segment's overall revenue growth.</data>
+  <data key="d7">Business Unit, Revenue Contribution, Organizational Structure&lt;SEP&gt;business structure, segment contribution</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Distribution" target="Consolidated Financials">
+  <data key="d5">8.0</data>
+  <data key="d6">The performance of the Distribution segment, which was up 4% from budget, was a key contributor to the strong consolidated financial results.</data>
+  <data key="d7">Financial Contribution, Business Performance, Corporate Roll-up</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Distribution" target="April 2024">
+  <data key="d5">10.0</data>
+  <data key="d6">The financial performance of the Distribution segment, including its revenue of $1.884mn, is specifically reported for the period of April 2024.</data>
+  <data key="d7">financial reporting, performance period</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Distribution" target="Channel Manager OTA">
+  <data key="d5">7.0</data>
+  <data key="d6">'Channel Manager OTA' is listed as a specific product line under the broader 'Distribution' category in the performance report.</data>
+  <data key="d7">product hierarchy, business category</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Distribution" target="GDS">
+  <data key="d5">7.0</data>
+  <data key="d6">'GDS' is listed as a specific product line under the broader 'Distribution' category in the performance report.</data>
+  <data key="d7">product hierarchy, business category</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MarTech" target="BCV">
+  <data key="d5">9.0</data>
+  <data key="d6">BCV is a business unit operating under the MarTech segment. Its revenue performance contributes directly to the overall MarTech results.</data>
+  <data key="d7">Organizational Structure, Business Unit, Financial Contribution</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MarTech" target="MHS">
+  <data key="d5">9.0</data>
+  <data key="d6">MHS is a business unit operating under the MarTech segment. Its revenue performance, which was $97k above budget, contributed significantly to the MarTech segment's success.</data>
+  <data key="d7">Organizational Structure, Business Unit, Financial Contribution</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MarTech" target="Consolidated Financials">
+  <data key="d5">8.0</data>
+  <data key="d6">The performance of the MarTech segment, which was $135k over budget, was a key contributor to the strong consolidated financial results.</data>
+  <data key="d7">Financial Contribution, Business Performance, Corporate Roll-up</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Thai &amp; Malaysian Airlines" target="Air business">
+  <data key="d5">8.0</data>
+  <data key="d6">Thai &amp; Malaysian Airlines are clients whose business directly caused volume expansion for the Air business product line.</data>
+  <data key="d7">Client Relationship, Business Growth, Volume Expansion</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Red Lion" target="Optima">
+  <data key="d5">18.0</data>
+  <data key="d6">Red Lion is a client of Optima. An increase in properties managed for Red Lion resulted in higher billing and a $7.5k revenue increase for Optima.&lt;SEP&gt;Red Lion is a client of the Optima product, and its addition of properties directly led to increased billing and revenue for Optima.</data>
+  <data key="d7">Client Relationship, Revenue Growth, Service Expansion&lt;SEP&gt;client relationship, revenue growth</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Grupo Hotelero Santa Fe" target="Rateparity">
+  <data key="d5">17.0</data>
+  <data key="d6">Grupo Hotelero Santa Fe is a new client acquired by Rateparity, which directly led to a $4k increase in Rateparity's revenue.&lt;SEP&gt;Grupo Hotelero Santa Fe is a new client acquired for the Rateparity product, which directly contributed to Rateparity's revenue growth.</data>
+  <data key="d7">Client Acquisition, New Business, Revenue Growth&lt;SEP&gt;client acquisition, revenue impact</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Sabre" target="Channel Manager">
+  <data key="d5">16.0</data>
+  <data key="d6">Sabre is a client of the Channel Manager business, and an increase in properties managed for Sabre resulted in higher revenue for the business unit.&lt;SEP&gt;Sabre is a client of the Channel Manager unit. Increased business from Sabre (more properties) contributed to higher-than-budgeted revenue for Channel Manager.</data>
+  <data key="d7">Client Relationship, Revenue Growth, Account Expansion&lt;SEP&gt;client relationship, business growth</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Sabre" target="Rateparity">
+  <data key="d5">13.0</data>
+  <data key="d6">Rateparity issued a credit note to Sabre, which slightly offset its revenue gains from new clients.&lt;SEP&gt;Sabre is a client of Rateparity. A credit note was issued to Sabre, which slightly offset Rateparity's revenue gains from other sources.</data>
+  <data key="d7">Client Relationship, Financial Transaction, Credit Note&lt;SEP&gt;client relationship, financial adjustment</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Sabre" target="DHISCO">
+  <data key="d5">7.0</data>
+  <data key="d6">Sabre is a client of the DHISCO business unit and is listed as an example of a successful upsell.</data>
+  <data key="d7">client relationship, revenue growth, upsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Sabre" target="RezGain">
+  <data key="d5">7.0</data>
+  <data key="d6">Sabre is a client of the RezGain business unit and is listed as an example of a successful upsell.</data>
+  <data key="d7">client relationship, revenue growth, upsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Pegasus" target="Channel Manager">
+  <data key="d5">15.0</data>
+  <data key="d6">Pegasus is a client of the Channel Manager business for whom a billing reconciliation of $29k was processed.&lt;SEP&gt;Pegasus is a customer of the Channel Manager unit. A billing reconciliation for Pegasus from the previous year added $29k to Channel Manager's revenue.</data>
+  <data key="d7">Client Relationship, Financial Reconciliation, Billing&lt;SEP&gt;client relationship, financial reconciliation</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="SourceFuse" target="Channel Manager">
+  <data key="d5">14.0</data>
+  <data key="d6">SourceFuse is a client of the Channel Manager business that received an ad-hoc bill for $13k.&lt;SEP&gt;The Channel Manager unit issued an ad-hoc billing of $13k to SourceFuse, which contributed to its revenue in April 2024.</data>
+  <data key="d7">Client Relationship, Ad-hoc Billing, Financial Transaction&lt;SEP&gt;client billing, ad-hoc revenue</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="IHG" target="DHISCO">
+  <data key="d5">7.0</data>
+  <data key="d6">IHG is a client of the DHISCO business unit and is listed as an example of a downsell.</data>
+  <data key="d7">client relationship, revenue change, downsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="BCV" target="BCV NORAM">
+  <data key="d5">27.0</data>
+  <data key="d6">BCV NORAM is the North American division of the BCV business category, and its financial performance is reported as part of BCV's overall results.&lt;SEP&gt;BCV NORAM is the North American division of the BCV business, and its financial performance is reported as a component of BCV's overall results.&lt;SEP&gt;BCV NORAM is the North American division of the BCV business unit, and its reported financial performance is a component of BCV's overall results.</data>
+  <data key="d7">Organizational Structure, Regional Division, Financial Reporting&lt;SEP&gt;business structure, regional division, performance reporting&lt;SEP&gt;organizational structure, regional performance</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-d09ac3e3f09017dcb184a797dcb82647&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="BCV" target="Martech">
+  <data key="d5">10.0</data>
+  <data key="d6">BCV is a business unit within the Martech segment, and its revenue growth contributed to the segment's positive performance against its forecast.</data>
+  <data key="d7">business structure, segment performance</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="BCV" target="Hilton Orlando">
+  <data key="d5">8.0</data>
+  <data key="d6">Hilton Orlando is a client property of the BCV business unit that has churned, representing a loss of business for BCV.</data>
+  <data key="d7">client relationship, client loss, churn</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="BCV" target="Ritz Carlton">
+  <data key="d5">7.0</data>
+  <data key="d6">Ritz Carlton is a client of the BCV business unit and is listed as an example of a downsell.</data>
+  <data key="d7">client relationship, revenue change, downsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="BCV" target="Sonesta">
+  <data key="d5">7.0</data>
+  <data key="d6">Sonesta is a client of the BCV business unit and is listed as an example of an upsell.</data>
+  <data key="d7">client relationship, revenue growth, upsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="BCV" target="Waldorf Astoria">
+  <data key="d5">8.0</data>
+  <data key="d6">Waldorf Astoria was a client of the BCV business unit and is listed as an example of churn.</data>
+  <data key="d7">client relationship, client loss, churn</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="BCV" target="Signia by Hilton">
+  <data key="d5">8.0</data>
+  <data key="d6">Signia by Hilton was a client of the BCV business unit that has churned.</data>
+  <data key="d7">client relationship, client loss, churn</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="BCV" target="Key Performance Indicators">
+  <data key="d5">9.0</data>
+  <data key="d6">The performance of 'BCV' is evaluated against the defined Key Performance Indicators, and its churn rate of 42% is significantly above the 15% threshold, rating it as 'Red' for that metric.</data>
+  <data key="d7">performance evaluation, high churn</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MHS" target="Gross Operating Income (GOI)">
+  <data key="d5">9.0</data>
+  <data key="d6">Gross Operating Income (GOI) is a primary performance indicator for the MHS business unit, with a reported value of $733k for April.</data>
+  <data key="d7">Performance Metric, Financial Reporting, Key Indicator</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MHS" target="Sales">
+  <data key="d5">7.0</data>
+  <data key="d6">The Sales department is a cost center for the MHS business unit, with its costs noted as having increased above forecast.</data>
+  <data key="d7">cost structure, departmental expense</data>
+  <data key="d8">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MHS" target="AM">
+  <data key="d5">7.0</data>
+  <data key="d6">The AM (Account Management) department is a cost center for the MHS business unit, with its costs noted as having increased above forecast.</data>
+  <data key="d7">cost structure, departmental expense</data>
+  <data key="d8">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MHS" target="Finance">
+  <data key="d5">7.0</data>
+  <data key="d6">The Finance department is a cost center for the MHS business unit, with its costs noted as having increased above forecast.</data>
+  <data key="d7">cost structure, departmental expense</data>
+  <data key="d8">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MHS" target="GOI">
+  <data key="d5">10.0</data>
+  <data key="d6">MHS's financial performance for April includes a Gross Operating Income (GOI) of $733k.</data>
+  <data key="d7">financial performance, performance metric</data>
+  <data key="d8">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MHS" target="EBITDA">
+  <data key="d5">10.0</data>
+  <data key="d6">MHS's profitability for April is measured by its EBITDA of $152k, which was significantly above its budget.</data>
+  <data key="d7">profitability, financial performance</data>
+  <data key="d8">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MHS" target="Fee and Ad Revenues">
+  <data key="d5">10.0</data>
+  <data key="d6">MHS's revenue exceeded its forecast due to higher than expected Fee and Ad Revenues.</data>
+  <data key="d7">revenue driver, performance cause</data>
+  <data key="d8">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MHS" target="Apr.'24">
+  <data key="d5">9.0</data>
+  <data key="d6">The reported revenue and EBITDA figures for MHS are for the specific time period of April 2024.</data>
+  <data key="d7">reporting period, temporal context</data>
+  <data key="d8">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MHS" target="Martech">
+  <data key="d5">10.0</data>
+  <data key="d6">MHS is a business unit within the Martech segment. Its strong revenue and EBITDA performance were major contributors to the segment's overall results.</data>
+  <data key="d7">business structure, segment performance</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="MHS" target="April 2024">
+  <data key="d5">10.0</data>
+  <data key="d6">The detailed financial performance of MHS, including its GOI of $733k, revenue, and EBITDA of $152k, is reported for the period of April 2024.</data>
+  <data key="d7">financial reporting, performance period</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Enterprise Connectivity" target="AWS">
+  <data key="d5">15.0</data>
+  <data key="d6">Enterprise Connectivity's expenses were higher than planned due to a delay in its migration to the AWS platform, showing an operational and financial dependency.&lt;SEP&gt;The Enterprise Connectivity business experienced higher expenses due to a delay in its planned migration to AWS infrastructure.</data>
+  <data key="d7">Vendor Relationship, IT Infrastructure, Operational Delay, Cost Impact&lt;SEP&gt;vendor relationship, operational dependency, cost impact</data>
+  <data key="d8">chunk-cfda84f51e45e0bf7444bc93a4df511b&lt;SEP&gt;chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Optima" target="Key Performance Indicators">
+  <data key="d5">9.0</data>
+  <data key="d6">The performance of 'Optima' is evaluated against the defined Key Performance Indicators, and it is a low performer with 12% sales achievement and -93% growth, which would be rated 'Red'. </data>
+  <data key="d7">performance evaluation, underperformance</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="April FY'25" target="GOI">
+  <data key="d5">8.0</data>
+  <data key="d6">The April GOI figure is put into context by being measured as 47% of the GOI for the corresponding period in Fiscal Year 2025.</data>
+  <data key="d7">performance tracking, financial benchmark</data>
+  <data key="d8">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="BCV NORAM" target="NORAM">
+  <data key="d5">10.0</data>
+  <data key="d6">BCV NORAM is the division that operates within the NORAM (North America) geographical region.</data>
+  <data key="d7">geographical operation, regional division</data>
+  <data key="d8">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="BCV NORAM" target="EBITDA">
+  <data key="d5">9.0</data>
+  <data key="d6">BCV NORAM's reported financial results include an EBITDA of $9k.</data>
+  <data key="d7">profitability, financial performance</data>
+  <data key="d8">chunk-d09ac3e3f09017dcb184a797dcb82647</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Martech" target="YTD '2025">
+  <data key="d5">9.0</data>
+  <data key="d6">Martech is identified as the largest segment in the company's revenue mix, contributing 48% of the total revenue for the YTD '2025 period.</data>
+  <data key="d7">performance reporting, revenue mix, time period</data>
+  <data key="d8">chunk-9b26332995b30a2d26d566bf4ebacfec</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="FY 24-25" target="New Sales Achievement">
+  <data key="d5">9.0</data>
+  <data key="d6">'New Sales Achievement' is measured against the budget set for the 'FY 24-25' period.</data>
+  <data key="d7">financial period, performance measurement</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="FY 24-25" target="Growth">
+  <data key="d5">9.0</data>
+  <data key="d6">'Growth' is calculated by comparing performance in 'FY 24-25' against the previous fiscal year, FY24.</data>
+  <data key="d7">financial period, comparative analysis</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="DHISCO" target="Expedia">
+  <data key="d5">7.0</data>
+  <data key="d6">Expedia is a client of the DHISCO business unit and is listed as an example of a downsell.</data>
+  <data key="d7">client relationship, revenue change, downsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="DHISCO" target="Choice Hotels">
+  <data key="d5">7.0</data>
+  <data key="d6">Choice Hotels is a client of the DHISCO business unit and is listed as an example of a successful upsell.</data>
+  <data key="d7">client relationship, revenue growth, upsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="DHISCO" target="Accor">
+  <data key="d5">7.0</data>
+  <data key="d6">Accor is a client of the DHISCO business unit and is listed as an example of an upsell.</data>
+  <data key="d7">client relationship, revenue growth, upsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="DHISCO" target="Hyatt">
+  <data key="d5">7.0</data>
+  <data key="d6">Hyatt is a client of the DHISCO business unit and is listed as an example of an upsell.</data>
+  <data key="d7">client relationship, revenue growth, upsell</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="RezGain" target="Archipelago">
+  <data key="d5">9.0</data>
+  <data key="d6">Archipelago is listed as a client account that has churned from the RezGain business unit.</data>
+  <data key="d7">client relationship, client loss, churn</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="RezGain" target="Ayenda Account">
+  <data key="d5">8.0</data>
+  <data key="d6">Ayenda Account was a client of the RezGain business unit that has churned.</data>
+  <data key="d7">client relationship, client loss, churn</data>
+  <data key="d8">chunk-55aa0a47b3b061480760b57dcaad5dce</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Daas" target="Total">
+  <data key="d5">8.0</data>
+  <data key="d6">The performance metrics of 'Daas' (e.g., 28% achievement, -38% growth) are included in the calculation of the 'Total' aggregate figures for the entire portfolio.</data>
+  <data key="d7">data aggregation, component contribution</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Daas" target="Churn">
+  <data key="d5">9.0</data>
+  <data key="d6">'Daas' has a reported 'Churn' rate of 12% for the period of FY 24 + Apr'24, which would be rated as 'Yellow' according to the KPI rules.</data>
+  <data key="d7">performance metric, product evaluation</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Rate Parity" target="Channel Manager OTA">
+  <data key="d5">8.0</data>
+  <data key="d6">'Channel Manager OTA' and 'Rate Parity' are the two leading business units in terms of achieving their sales budget, at 158% and 140% respectively, making them the clear top performers by that metric.</data>
+  <data key="d7">comparative performance, sales achievement</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Rate Parity" target="New Sales Achievement">
+  <data key="d5">9.0</data>
+  <data key="d6">'Rate Parity' is a top performer in the 'New Sales Achievement' metric, having achieved 140% of its budget for FY25.</data>
+  <data key="d7">performance metric, product evaluation</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PG - OTA" target="PG - Car">
+  <data key="d5">7.0</data>
+  <data key="d6">'PG - OTA' and 'PG - Car' are both part of the 'PG' (Payment Gateway) product group, as indicated by their shared prefix.</data>
+  <data key="d7">product grouping, business category</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PG - Car" target="UNO">
+  <data key="d5">8.0</data>
+  <data key="d6">'UNO' and 'PG - Car' are the two business units with the most extreme growth rates in the report (6594% and 693% respectively), highlighting them as significant outliers in terms of growth.</data>
+  <data key="d7">comparative performance, high growth</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="PG - Cruise" target="Content">
+  <data key="d5">8.0</data>
+  <data key="d6">'PG - Cruise' and 'Content' are related as they both show identical, zero-to-negative performance metrics (0% achievement, -100% growth), indicating they are likely inactive, discontinued, or pre-revenue business units.</data>
+  <data key="d7">comparative performance, non-performing assets</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Channel Manager OTA" target="Key Performance Indicators">
+  <data key="d5">9.0</data>
+  <data key="d6">The performance of 'Channel Manager OTA' is evaluated against the defined Key Performance Indicators, and it is a top performer with 158% sales achievement, which would be rated 'Green'. </data>
+  <data key="d7">performance evaluation, top performer</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Channel Manager OTA" target="Total">
+  <data key="d5">8.0</data>
+  <data key="d6">The strong performance of 'Channel Manager OTA' (e.g., 158% achievement, 58% growth) positively contributes to the 'Total' aggregate figures for the entire portfolio.</data>
+  <data key="d7">data aggregation, component contribution</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Enterprise Connectivity OTA" target="Growth">
+  <data key="d5">9.0</data>
+  <data key="d6">'Enterprise Connectivity OTA' shows a significant negative 'Growth' of -84% in FY25 compared to FY24, making it a 'Red' performer for this KPI.</data>
+  <data key="d7">performance metric, product evaluation</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Key Performance Indicators" target="New Sales Achievement">
+  <data key="d5">10.0</data>
+  <data key="d6">The 'Key Performance Indicators' section explicitly defines the rules for evaluating 'New Sales Achievement', setting the thresholds for 'Green' (&gt;100%) and 'Red' (&lt;80%) performance ratings.</data>
+  <data key="d7">performance definition, evaluation criteria</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Key Performance Indicators" target="Growth">
+  <data key="d5">10.0</data>
+  <data key="d6">The 'Key Performance Indicators' section defines the rules for evaluating 'Growth', stating that positive growth is rated 'Green' and negative growth is rated 'Red'.</data>
+  <data key="d7">performance definition, evaluation criteria</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="Key Performance Indicators" target="Churn">
+  <data key="d5">10.0</data>
+  <data key="d6">The 'Key Performance Indicators' section defines the rules for evaluating 'Churn', setting the thresholds for 'Green' (&lt;10%) and 'Red' (&gt;15%) performance ratings.</data>
+  <data key="d7">performance definition, evaluation criteria</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+<edge source="GRR" target="NRR">
+  <data key="d5">9.0</data>
+  <data key="d6">GRR and NRR are presented side-by-side as complementary metrics for measuring revenue retention, with NRR accounting for revenue expansion and GRR not.</data>
+  <data key="d7">financial metrics, revenue retention</data>
+  <data key="d8">chunk-1b53c536f7045ab8657a2f58d544d477</data>
+  <data key="d9">unknown_source</data>
+</edge>
+</graph></graphml>
