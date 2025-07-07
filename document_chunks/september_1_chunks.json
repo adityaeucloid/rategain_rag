@@ -1,0 +1,571 @@
+[
+  {
+    "text": "1Smart Technology for the \nTravel Industry\nMIS - September & Q2 YTD FY’25",
+    "month": "September",
+    "year": 2024,
+    "page_number": 1,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "executive_summary",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": null,
+    "section_title": "MIS - September & Q2 YTD FY’25",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [
+      "September",
+      "Q2 YTD",
+      "FY’25"
+    ],
+    "chunk_id": "september_1_p1_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "simple"
+  },
+  {
+    "text": "2\nTable of Content\nExecutive Summary        Section 1\nConsolidated Financials        Section 2\n-DaaS (Travel BI & Hospi BI)\n-Distribution (Enterprise Connectivity & Channel Manager)\n-MarTech  (BCV, MHS & Adara)\nKey Accounts        Section 3\nRegion -wise new sales review                   Section 4\nCash & Investments        Section 5\nOthers         Section 6",
+    "month": "September",
+    "year": 2024,
+    "page_number": 2,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "section_header",
+    "business_units": [
+      "DaaS (Travel BI, Hospi BI)",
+      "Distribution (Enterprise Connectivity, Channel Manager)",
+      "MarTech (BCV, MHS, Adara)"
+    ],
+    "financial_metrics": [
+      "Consolidated Financials",
+      "new sales",
+      "Cash & Investments"
+    ],
+    "table_headers": [],
+    "section_title": "Table of Content",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_1_p2_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "simple"
+  },
+  {
+    "text": "Section 1: Executive Summary",
+    "month": "September",
+    "year": 2024,
+    "page_number": 3,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "section_header",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": null,
+    "section_title": "Executive Summary",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_1_p3_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "simple"
+  },
+  {
+    "text": "4Executive Summary\nConsolidated  (Incl Adara)\n✓FY25 H1, gross  revenue  stands  at $62.8mn (Including  Knowland  revenue) , reflecting  a 14% increase  from the previous  year but falling  short  of the $54.9mn budgeted  \ntarget . EBITDA  is reported  at $12.27mn, compared  to the $12.69mn budgeted,  marking  a 3.3% shortfall  primarily  due to lower  distribution  performance,  largely  \nattributed  to AWS  costs . The EBITDA  margin  for H1 FY25 is 19.5% of gross  revenue . Q2 EBITDA  Margins  before  Statutory  adjustments  (like ESOP ) stand  at 21.3%\n✓In Sep, with Adara  included,  gross  revenue  was $11.53mn, achieving  a gross  margin  of 72% and an EBITDA  of $2.85mn. Costs  were  better  than forecasted  across  all \ndepartments . The company  is performing  well in key revenue  streams  such  as DaaS  and MarTech , demonstrating  strong  year-over-year growth . However,  the decline  \nin new bookings  is a concern  and will require  close  monitoring .",
+    "month": "September",
+    "year": 2024,
+    "page_number": 4,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "executive_summary",
+    "business_units": [
+      "DaaS",
+      "Distribution",
+      "MarTech"
+    ],
+    "financial_metrics": [
+      "Gross revenue",
+      "EBITDA",
+      "EBITDA margin",
+      "Gross margin",
+      "YoY",
+      "New bookings"
+    ],
+    "table_headers": null,
+    "section_title": "Executive Summary",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "H1 FY25",
+      "Q2",
+      "Sep"
+    ],
+    "chunk_id": "september_1_p4_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "Adara :\n✓Adara  estimated  revenue  for Sep’24 is $4.2mn with 63% GM and $846k EBITDA .",
+    "month": "September",
+    "year": 2024,
+    "page_number": 4,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "financial_analysis",
+    "business_units": [
+      "MarTech"
+    ],
+    "financial_metrics": [
+      "Revenue",
+      "Gross Margin",
+      "EBITDA"
+    ],
+    "table_headers": null,
+    "section_title": "Adara",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [
+      "Sep’24"
+    ],
+    "chunk_id": "september_1_p4_c1",
+    "confidence_score": 0.8,
+    "complexity_level": "simple"
+  },
+  {
+    "text": "DaaS :\nDaaS Sep revenue was entirely in line with the forecast. \n✓ 1HFY 25 New  bookings  were  off by 33% and  is an area  of concern . With  $3.5mn this  year , we’re  down  by 13% in new  bookings  Y-o-Y basis . \n✓ COGS  were  higher  due  to Booking .com  POC  cost  ($29k); Expedia  issues  for which  we moved  to premium  proxy  ($20k); Expedia  new  Skyscanner  project  ($14k) data  \nprocurement  cost ; Expedia  Priceline  website  captcha  cost  ($4k); IT & telecom  costs  were  higher  due  to Gong  License  costs  true -up for 8 months . This  is due  to a delay  in the \nvendor’s  invoice . \n✓ EBITDA  for Sep’ 24 was  in line  with  the forecast . H1 EBITDA  is entirely  in line  with  the budget  showing  overall  good  performance ;  H1 EBITDA  at $5.24mn (Act)  v/s $5.24 (Bud) ; \nINLINE . H1 Margins  are at 37%",
+    "month": "September",
+    "year": 2024,
+    "page_number": 4,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "financial_analysis",
+    "business_units": [
+      "DaaS"
+    ],
+    "financial_metrics": [
+      "Revenue",
+      "New bookings",
+      "YoY",
+      "COGS",
+      "EBITDA",
+      "EBITDA Margin"
+    ],
+    "table_headers": null,
+    "section_title": "DaaS",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "Sep",
+      "1HFY 25",
+      "Sep’ 24",
+      "H1"
+    ],
+    "chunk_id": "september_1_p4_c2",
+    "confidence_score": 0.8,
+    "complexity_level": "complex"
+  },
+  {
+    "text": "Travel  BI:\nTravel BI  Sep revenue was entirely in line with the forecast. \n✓ 1HFY 25 revenue  growth  stands  at 23% and  off from  the budget  by 5%. Out  of all BI products,  only  OTA  revenue  is behind  the budget  on an H1 basis .\n✓ EBITDA  for Sep’ 24 was  in line  with  the forecast . H1 EBITDA  is off the budget  due  to lower  OTA  revenue ;  H1 EBITDA  at $5.04mn (Act)  v/s $5.30 (Bud) ;BEHIND . H1 Margins  are \nat 40%",
+    "month": "September",
+    "year": 2024,
+    "page_number": 4,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "financial_analysis",
+    "business_units": [
+      "DaaS"
+    ],
+    "financial_metrics": [
+      "Revenue",
+      "Revenue growth",
+      "EBITDA",
+      "EBITDA Margin"
+    ],
+    "table_headers": null,
+    "section_title": "Travel BI",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "Sep",
+      "1HFY 25",
+      "H1",
+      "Sep’ 24"
+    ],
+    "chunk_id": "september_1_p4_c3",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "5Executive Summary",
+    "month": "September",
+    "year": 2024,
+    "page_number": 5,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "section_header",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": null,
+    "section_title": "Executive Summary",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_1_p5_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "simple"
+  },
+  {
+    "text": "Hospi  BI:\nHospi  BI’s revenue  for September  2024  was below  the forecast  by 4% due to one-time credit  notes . Hospi  BI Sep’24 revenue  was 4% below  the forecast,  with an EBITDA  \nbeat of $28k vs $24k forecasted . YTD Sept EBITDA  is at $209k vs. -$67k budgeted  due to Scandic  one-time billing  and savings  on the data and proxy  cost",
+    "month": "September",
+    "year": 2024,
+    "page_number": 5,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "executive_summary",
+    "business_units": [
+      "DaaS (Travel BI, Hospi BI)"
+    ],
+    "financial_metrics": [
+      "Revenue",
+      "EBITDA"
+    ],
+    "table_headers": null,
+    "section_title": "Executive Summary",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "September 2024",
+      "Sep’24",
+      "YTD Sept"
+    ],
+    "chunk_id": "september_1_p5_c1",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "Distribution\n✓Sep’FY 25, the total Distribution  revenue  (Excluding  IHG)  is reported  at $2.12 in line with the forecast  of $2.13mn; lower  CM & UNO  business  revenue  was partially  offset  \nby higher  enterprise  connectivity  business\nRZ\n✓Sep-24 revenue ($281k) is lower than the forecast by $26k mainly due to credit notes for integration deals ($18k), OYO ($5k) & S abre ($3k) \n✓Overall  expenses  are lower  than the forecast  by $21k mainly  due to savings  in Marketing  & SG&A  which  was partially  offset  IT & telecom  (true up of Gong license)\n✓Sep-24 EBITDA  negative  $33k act v/s forecast  of negative  $28k; YTD burn is better  at negative  $174k vs. negative  $221k budgeted  \nEnterprise  Connectivity\n✓Sep revenue  of $1.81mn is marginally  higher  against  the forecast  of $1.79mn mainly  due to higher  GDS  volume  (delay  in Hyatt’s  CRS  migration  had a positive  impact)",
+    "month": "September",
+    "year": 2024,
+    "page_number": 5,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "financial_analysis",
+    "business_units": [
+      "Distribution (DHISCO, RezGain, Enterprise Connectivity)"
+    ],
+    "financial_metrics": [
+      "Revenue",
+      "EBITDA",
+      "Expenses",
+      "YTD burn"
+    ],
+    "table_headers": null,
+    "section_title": "Executive Summary",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "Sep’FY 25",
+      "Sep-24",
+      "YTD"
+    ],
+    "chunk_id": "september_1_p5_c2",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "Martech  (Ex. Adara)\n✓For September  2024 , revenue  excluding  Adara  was approximately  $920k, falling  short  of the forecast  by $80k. BCV revenue  was 4% below  forecast  ($18k short),  while  \nMHS  net revenue  was down  by 10% ($62k short)  from forecast .\nBCV\n✓BCV reported September revenue of $385k against the forecast  of $402k, The decrease in revenue was primarily due to a drop in the One-Time -Upsell revenue. The \nCOGS were high due to Video editing services non budgeted expenses  of $16.6k .\n✓BCV reported EBITDA of -$73k  in Sep’24 due to lower revenue and high COGS. YTD EBITDA loss in BCV is -$118k\nMHS\n✓GOI for September  was $535k; H1 FY’25 GOI at 46%. MHS  Sep.’24 revenue  is lower  by $62k compared  to forecast  due to a tracking  issue  for one of the clients  (this is \nrectified  now) ; MHS  September  EBITDA  at $44k vs. forecasted  EBITDA  of $74k driven  majorly  by the decline  in revenue,  partially  set-off by bonus  not accrued  due to low \nperformance .\n✓H1 FY25 EBITDA  is lower  by $162k in comparison  to Budgeted  EBITDA  and down  by $236k in comparison  to H1 FY24 actual  EBITDA  due to Novum  churn .",
+    "month": "September",
+    "year": 2024,
+    "page_number": 5,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "financial_analysis",
+    "business_units": [
+      "MarTech (Adara, BCV, MHS)"
+    ],
+    "financial_metrics": [
+      "Revenue",
+      "Net Revenue",
+      "COGS",
+      "EBITDA",
+      "YTD EBITDA loss",
+      "GOI",
+      "Churn"
+    ],
+    "table_headers": null,
+    "section_title": "Executive Summary",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "September 2024",
+      "Sep’24",
+      "YTD",
+      "H1 FY’25",
+      "H1 FY24"
+    ],
+    "chunk_id": "september_1_p5_c3",
+    "confidence_score": 0.8,
+    "complexity_level": "complex"
+  },
+  {
+    "text": "6\nGrowth and Margins Snapshot (H1 ‘2025)\nREVENUE \nGROWTH\nPAT\nMARGINS\nREVENUE \nMIXNEW \nCONTRACT \nWINS\nCASH\nRESILIENT\nREVENUE- Collections : $10,854k (up $1.3mn) \n- Cash: $135,015k\n- ROI:  6.70% (Sep -24)\n- DSO: 71 Days (Aug -24)\n- GRR: 91%\n- NRR: 103%New contracts wins (YTD) : (5.87)% (Y-o-Y)*\nBy segment:\n- MarTech :  44%\n- DaaS:  36%\n- Distribution : 20%Gross margins:  70%\nH1 EBITDA: $12,276k  (19.5%)Gross Revenue : $62,813k  (+14% Y-o-Y)\nBefore ESOP expenses.\n*Excluding Adara",
+    "month": "September",
+    "year": 2024,
+    "page_number": 6,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "kpi_dashboard",
+    "business_units": [
+      "MarTech",
+      "DaaS",
+      "Distribution"
+    ],
+    "financial_metrics": [
+      "Gross Revenue",
+      "Growth (YoY)",
+      "Gross margins",
+      "EBITDA",
+      "EBITDA Margin",
+      "New contract wins",
+      "Revenue Collections",
+      "Cash",
+      "ROI",
+      "DSO",
+      "GRR",
+      "NRR"
+    ],
+    "table_headers": null,
+    "section_title": "Growth and Margins Snapshot (H1 ‘2025)",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "H1 ‘2025",
+      "YTD",
+      "Y-o-Y",
+      "Sep -24",
+      "Aug -24"
+    ],
+    "chunk_id": "september_1_p6_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "7Operational Metrics – Snapshot\n3,093\nCustomers (inc. Adara)\n13% up YoY\n\nLower compared to last month of 3,258 \ndue to NOVUM Churn -120 properties\n\n917\nEmployees (incl. Adara)\n\n10.28 % \nTTM Employee Attrition\n(Voluntary exit)  \n\n~$123k\nNet Rev per Employee \n(Higher due to Adara)\n\n$40,620k\nTotal Pipeline for FY25 \n(w/o Adara )\n\n$6,772k (Sep -24)*\nNew contracts win\n(5.87) % YoY growth\n(35.5%) off v/s. budget\n* Excluding Adara\n\n15.06x\nLTV to  CAC\n\n$126mn \nBasis YTD run -rate",
+    "month": "September",
+    "year": 2024,
+    "page_number": 7,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "narrative",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": [],
+    "section_title": "",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_1_p7_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "8Key operational metricsFY 24 -25\nTravel BI Hospi  BIChannel \nManagerEnterprise \nConnectivity BCV MHS Adara RG\nGross Renewal Rate (%) 96% 91% 94% 97% 60% 87% 78% 91%\nNet Renewal Rate (%) 113% 98% 93% 110% 66% 96% 100% 103%\nMonetization (%) - FY24 till date 71% 79% 68% 73% 63% 46% 76% 69%\nNet Rev per Employee ($)  91,667  47,219  61,458  1,36,182  56,895 88,250    335,001  122,818\nCustomer Count (#)  262 516 681 125  138 807      565  3,093\nAvg. Rev per client ($) 99,762  7,074  5,816  154,104  35,580  9,093  69,393 n/a\nTTM Attrition (Vol.) Rate (%) 11% 3% 9% 3% 11% 10%\nS&M Multiple (x) 2.00x 1.44x 0.94x 0.96x 1.64x 1.40x 5.34x 3.52x\nS&M (% of Rev) 10% 14% 12% 3% 20% 17% 20% 15%\nG&A (% of Rev) 11% 11% 16% 12% 7% 17% 3% 8%\nGMPP (in Months) 7.62 12.49 19.29 16.50 25.62 10.47 11.9 -\nLTV:CAC 31.48 6.40 4.15 24.24 1.00 28.65 9.91 15.06\n40% Rule Check\n- GAAP Basis 63% 23% -22% 39% -16% 20% 36% 36%CEO Dashboard     \nAdara S&M Multiple, GMPP & : CAC is calculated based on Adara’s YTD FY’25 New Sales (YoY Advertisers recurring methodology)\n•Adara customer count is based on the advertisers served in the last 12 months Sep’23 -Aug’24  with revenue of more than $1kAdara GRR, and NRR, numbers are \nbased on 12 month’s revenue  \nanalysis.",
+    "month": "September",
+    "year": 2024,
+    "page_number": 8,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "kpi_dashboard",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": [],
+    "section_title": "",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_1_p8_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "8Key operational metricsFY 24 -25\nTravel BI Hospi  BIChannel \nManagerEnterprise \nConnectivity BCV MHS Adara RG\nGross Renewal Rate (%) 96% 91% 94% 97% 60% 87% 78% 91%\nNet Renewal Rate (%) 113% 98% 93% 110% 66% 96% 100% 103%\nMonetization (%) - FY24 till date 71% 79% 68% 73% 63% 46% 76% 69%\nNet Rev per Employee ($)  91,667  47,219  61,458  1,36,182  56,895 88,250    335,001  122,818\nCustomer Count (#)  262 516 681 125  138 807      565  3,093\nAvg. Rev per client ($) 99,762  7,074  5,816  154,104  35,580  9,093  69,393 n/a\nTTM Attrition (Vol.) Rate (%) 11% 3% 9% 3% 11% 10%\nS&M Multiple (x) 2.00x 1.44x 0.94x 0.96x 1.64x 1.40x 5.34x 3.52x\nS&M (% of Rev) 10% 14% 12% 3% 20% 17% 20% 15%\nG&A (% of Rev) 11% 11% 16% 12% 7% 17% 3% 8%\nGMPP (in Months) 7.62 12.49 19.29 16.50 25.62 10.47 11.9 -\nLTV:CAC 31.48 6.40 4.15 24.24 1.00 28.65 9.91 15.06\n40% Rule Check\n- GAAP Basis 63% 23% -22% 39% -16% 20% 36% 36%CEO Dashboard     \nAdara S&M Multiple, GMPP & : CAC is calculated based on Adara’s YTD FY’25 New Sales (YoY Advertisers recurring methodology)\n•Adara customer count is based on the advertisers served in the last 12 months Sep’23 -Aug’24  with revenue of more than $1kAdara GRR, and NRR, numbers are \nbased on 12 month’s revenue  \nanalysis.",
+    "month": "September",
+    "year": 2024,
+    "page_number": 8,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "narrative",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": [],
+    "section_title": "",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_1_p8_c1",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "YTD FY24 -25: GRR, NRR Ratios (with Churn and Upsell Summary)",
+    "month": "September",
+    "year": 2024,
+    "page_number": 9,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "section_header",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": [],
+    "section_title": "",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_1_p9_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "Particulars ($'000) PG-OTA PG-Car Rev.AI PG-Air TravelBI Optima Parity HospiBI DaaS Channel Mng Ent. Conn. Distribution BCV MHS Adara Martech Consol\nFY 23-24 $6,515 $1,972 $652 $1,088 $10,381 $1,153 $422 $1,659 $12,040 $2,004 $8,403 $10,407 $2,996 $3,459 $33,173 $39,627 $28,901\nChurn ($126) ($78) ($121) ($94) ($425) ($39) ($58) ($146) ($570) ($122) ($219) ($342) ($1,206) ($437) ($7,152) ($8,795) ($2,555)\nDownsell ($237) ($182) ($11) ($206) ($654) ($47) ($17) ($65) ($719) ($261) ($846) ($1,107) ($153) ($346) ($5,265) ($5,765) ($2,325)\nUpsell $1,619 $389 $89 $260 $2,367 $133 $33 $170 $2,537 $199 $1,867 $2,066 $332 $661 $12,502 $13,496 $5,597\nDeferred/Early Bill $10 $16 $0 ($15) $11 $4 ($3) $0 $11 $41 $0 $41 $0 $0 $0 $0 $52\nNew Revenue $43 $90 $254 $266 $656 $119 $51 $171 $828 $98 $240 $338 $694 $472 $12,090 $13,255 $2,331\nExceptional Items ($51) $22 $0 $17 ($12) $55 $5 $62 $50 ($42) $0 ($42) $0 $0 $0 $0 $8\nFY 24-25 $7,774 $2,229 $862 $1,316 $12,325 $1,379 $433 $1,851 $14,176 $1,917 $9,444 $11,362 $2,662 $3,809 $45,347 $51,818 $32,009\nGRR 98% 96% 81% 91% 96% 97% 86% 91% 95% 94% 97% 97% 60% 87% 78% 78% 91%\nNRR 119% 107% 93% 95% 113% 104% 89% 98% 110% 93% 110% 106% 66% 96% 100% 97% 103%\nGRR Last Month 98% 96% 81% 88% 96% 96% 87% 91% 95% 96% 97% 97% 59% 94% 75% 75% 92%\nNRR Last Month 121% 104% 94% 98% 114% 104% 108% 103% 112% 96% 106% 104% 61% 102% 106% 102% 102%",
+    "month": "September",
+    "year": 2024,
+    "page_number": 9,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "table",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": [],
+    "section_title": "",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_1_p9_c1",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "Down -sell:\n•Travel BI : Agoda, Klook , Singapore Airlines, Hertz, \nBudget of Harrisburg\n•Hospi BI: Navigator –Travel & Leisure,\nKempinski -  Rate Parity\n•DHISCO: IHG, Pegasus, Hilton, Expedia\n•BCV: The Peninsula Beverly Hills, AC Hotel \nDenver Downtown, Le Meridien Denver and few \nother properties\n\nUpsell:\n•Travel BI : Sixt SE, Expedia, Air India, Air \nSenegal, Ace rent a car, Away resorts\n•Hospi BI: Choice – RateParity ; Cross hotels & \nResorts, Red lion  - Navigator\n•RezGain : Sabre  and few other Retail accounts\n•DHISCO: Marriott, Choice & Hyatt\n•BCV: Namacolin  Casino, Fairfield Inn Moab, \nHyatt Regency Bellevue and few other \nproperties\n\nChurn:\n•Travel BI : Condor Ferries, Action Car Rental, Travel \nFursan , Air Belgium\n•Hospi BI: Kerzner – Navigator, G_Six  - RP\n•RezGain : Archipelago and Ayenda  Account  churn\n•BCV:  Aqua Aston,  Hilton Orlando  , Fairmont Scottsdale \nPrincess, The Henderson Beach Resort, L'Auberge  de \nSedona and fore other properties",
+    "month": "September",
+    "year": 2024,
+    "page_number": 9,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "narrative",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": [],
+    "section_title": "",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_1_p9_c2",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "Adara GRR, and NRR, numbers are based on 12 \nmonths  data. Hence, not included in the Consol \ncalculation\nNote – All numbers are based on net revenue basis (Cash Basis) and Adara revenue numbers are in 1 month lag.",
+    "month": "September",
+    "year": 2024,
+    "page_number": 9,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "narrative",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": [],
+    "section_title": "",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_1_p9_c3",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "Particulars Net Revenue Churn Monetization \nBU/ProductFY25 \nAchievement Vs \nBud  %  Growth  %  \n(FY25 vs FY24)Growth Revenue \n(GAAP Basis, %  \nFY24 )Churn FY 24 + YTD FY 25\nDaas 67% -13% 21% 5% 73%\nHospiBI 61% -29% 11% 9% 79%\nOptima 63% -34% 19% 3% 83%\nRate Parity 57% -9% 6% 14% 63%\nOthers 0% -44% -45% 59% 92%\nTravel BI 68% -11% 23% 4% 71%\nPG - OTA 87% 1% 24% 2% 70%\nPG - Car 41% -40% 13% 4% 81%\nRev.AI 33% -58% 31% 19% 66%\nPG - Air 51% 5% 30% 9% 74%\nPG - Cruise 0% 28% 1% 4% 43%\nDistribution 55% -12% 6% 3% 68%\nChannel Manager OTA 117% -16% -13% 6% 68%\nEnterprise Connectivity OTA 59% -23% -8% 3% 73%\nGDS 32% -48% 51% 3% 73%\nContent 3% -92% -4% 3% 73%\nOthers 23% 460% 24% 3% 73%\nContent.AI 0% 0% 0% 0% 0%\nUNO 79% 85% 2371% 0% 21%\nMartech 89% 14% 13% 25% 64%\nBCV 64% 77% -11% 40% 63%\nMHS/Demand Booster 85% 10% 6% 13% 46%\nAdara 90% 13% 17% 22% 76%\nTotal 83% 9% 13% 9% 69%",
+    "month": "September",
+    "year": 2024,
+    "page_number": 10,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "table",
+    "business_units": [
+      "DaaS",
+      "Distribution",
+      "MarTech"
+    ],
+    "financial_metrics": [
+      "Revenue (GAAP)",
+      "Growth (YoY)",
+      "Churn",
+      "Performance vs. Budget"
+    ],
+    "table_headers": [
+      "Particulars",
+      "Net Revenue Churn Monetization",
+      "BU/Product",
+      "FY25 Achievement Vs Bud  %",
+      "Growth  % (FY25 vs FY24)",
+      "Growth Revenue (GAAP Basis, % FY24 )",
+      "Churn FY 24 + YTD FY 25"
+    ],
+    "section_title": "New Sales Key Performance Indicators - Heatmap",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "FY25",
+      "FY24",
+      "YTD FY 25"
+    ],
+    "chunk_id": "september_1_p10_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "complex"
+  },
+  {
+    "text": "•New sales achievement: if Achieved >100%, “Green” <80%, “Red ” otherwise yellow\n•New sales growth & revenue growth : If Positive  “Green ”, Negative “Red”\n•Churn:  If >15% , “Red” if <10%, “Green”, otherwise “Yellow”",
+    "month": "September",
+    "year": 2024,
+    "page_number": 10,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "narrative",
+    "business_units": [],
+    "financial_metrics": [
+      "New bookings",
+      "Growth",
+      "Churn"
+    ],
+    "table_headers": [],
+    "section_title": "New Sales Key Performance Indicators - Heatmap",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_1_p10_c1",
+    "confidence_score": 0.8,
+    "complexity_level": "simple"
+  },
+  {
+    "text": "Adara GRR numbers are based on 12 months  \ndata. Hence, not included in the Consol \ncalculation",
+    "month": "September",
+    "year": 2024,
+    "page_number": 10,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_1.pdf",
+    "document_name": "september_1",
+    "chunk_type": "narrative",
+    "business_units": [
+      "MarTech"
+    ],
+    "financial_metrics": [
+      "GRR"
+    ],
+    "table_headers": [],
+    "section_title": "New Sales Key Performance Indicators - Heatmap",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [
+      "12 months"
+    ],
+    "chunk_id": "september_1_p10_c2",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  }
+]

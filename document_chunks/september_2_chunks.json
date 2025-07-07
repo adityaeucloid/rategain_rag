@@ -1,0 +1,484 @@
+[
+  {
+    "text": "11\nTTM Revenue trends (excl. pass through revenue)\n+12%",
+    "month": "September",
+    "year": 2024,
+    "page_number": 1,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "kpi_dashboard",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": [],
+    "section_title": "",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_2_p1_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "12\nGeo and Business wise revenue\nDistribution\n20%\nDaaS \n36%\nMarTech\n44%\nNorth America\n56%\nAPAC\n11%\nEurope\n32%\nOthers\n1%\nRevenue by Geography\nRevenue by Business Unit",
+    "month": "September",
+    "year": 2024,
+    "page_number": 2,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "kpi_dashboard",
+    "business_units": [
+      "DaaS",
+      "Distribution",
+      "MarTech"
+    ],
+    "financial_metrics": [
+      "Revenue by Business Unit (%)",
+      "Revenue by Geography (%)"
+    ],
+    "table_headers": null,
+    "section_title": "Geo and Business wise revenue",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_2_p2_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "simple"
+  },
+  {
+    "text": "13TTM Employee Compensation",
+    "month": "September",
+    "year": 2024,
+    "page_number": 3,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "section_header",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": [],
+    "section_title": "",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_2_p3_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "14\nTotal Headcount M -o-M\n▪In Sep.’24, 11 employees have joined and 17 have left the organization.\n▪Of the 11 new additions, 6 have been hired in the Sales & Marketing.\n830 \n91%\n55 \n6%\n32 \n3%\nOverall Headcount\nFull Time\nContractual\nOthers (Student/\nTrainee/ Interns)\n29%\n16%\n7%\n8%\n14%\n9%\n13%\n4%\nHeadcount at Division Level\nDAAS\nDistribution\nBCV\nMHS\nAdara\nShared Business\nBus. Enablement\nRG Labs\n10%\n10%\n3%\n21%\n32%\n5%\n1%\n2%\n1%\n15%\nHeadcount at Department Level\nSales\nAM\nClient Services\nEngineering\nOperations\nProduct Mgmt\nMonitoring\nCreative\nPaid Media &\nStrategy\nShared Services",
+    "month": "September",
+    "year": 2024,
+    "page_number": 4,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "kpi_dashboard",
+    "business_units": [
+      "DaaS",
+      "Distribution",
+      "MarTech"
+    ],
+    "financial_metrics": [
+      "Total Headcount",
+      "New Hires",
+      "Exits"
+    ],
+    "table_headers": null,
+    "section_title": "Total Headcount M-o-M",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "Sep.’24",
+      "M-o-M"
+    ],
+    "chunk_id": "september_2_p4_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "Month Jul-24 Aug-24 Sep-24\nRG (India)     666      674      670 \n- Full Time    649      655      651 \n- Contract      17        19        19 \nRG International       65        69        71 \n- Full Time      32        35        36 \n- Contract      33        34        35 \nDHISCO       30        30        30 \n- Full Time       29        29        29 \n- Contract        1          1          1 \nBCV       37        38        38 \n- Full Time       37        38        38 \n- Contract       -          -           -   \nMHS       32        32        31 \n- Full Time       32        32        31 \n- Contract       -          -           -   \nAdara       44        45        45 \n- Full Time       44        45        45 \n- Contract       -          -           -   \nRG - Student/ Trainee/ Interns       12        14        13 \nBCV - Student/ Trainee/ Interns         6          6          5 \nMHS - Student/ Trainee/ Interns       16        15        14 \nTotal     908      923      917 \nDivision Jul-24 Aug-24 Sep-24\nTravel DaaS 195    196     197     \nHospi DaaS 55      54       54       \nShared DaaS 17      15       15       \nShared Business 76      81       84       \nChannel Manager 34      35       34       \nEnterprise Connectivity 111    111     109     \nBCV 72      71       66       \nMHS 76      75       73       \nAdara 113    124     125     \nRGLabs 40      41       41       \nBusiness Enablement 119    120     119     \nTotal 908    923     917     \nDepartment Jul-24 Aug-24 Sep-24\nSales 82      89       90       \nAM 92      93       92       \nClient Services 25      25       25       \nEngineering 195    196     194     \nOperations 281    288     289     \nProduct Management 50      47       47       \nMonitoring 13      13       10       \nCreative 22      22       22       \nPaid Media & Strategy 9        9          9          \nShared Services\nChairman 1        1          1          \nFinance 34      33       34       \nHR 29      29       29       \nAdmin 5        5          5          \nIT Infra 22      22       21       \nMarketing 37      40       38       \nCEO Office 11      11       11       \nTotal 908    923     917",
+    "month": "September",
+    "year": 2024,
+    "page_number": 4,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "table",
+    "business_units": [
+      "DaaS",
+      "Distribution",
+      "MarTech"
+    ],
+    "financial_metrics": [
+      "Total Headcount",
+      "Full Time Headcount",
+      "Contractual Headcount"
+    ],
+    "table_headers": [
+      "Month",
+      "Jul-24",
+      "Aug-24",
+      "Sep-24",
+      "Division",
+      "Department"
+    ],
+    "section_title": "Total Headcount M-o-M",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "Jul-24",
+      "Aug-24",
+      "Sep-24"
+    ],
+    "chunk_id": "september_2_p4_c1",
+    "confidence_score": 0.8,
+    "complexity_level": "complex"
+  },
+  {
+    "text": "15Section 2: Financials\n- Consolidated\n- DaaS (Travel BI & Hospi)\n- Distribution (DHISCO & RezGain )\n- MarTech  (BCV, MHS & Adara)",
+    "month": "September",
+    "year": 2024,
+    "page_number": 5,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "section_header",
+    "business_units": [
+      "DaaS",
+      "Distribution",
+      "MarTech"
+    ],
+    "financial_metrics": [],
+    "table_headers": null,
+    "section_title": "Section 2: Financials",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_2_p5_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "simple"
+  },
+  {
+    "text": "16\nRateGain\nBU ($'000)Q 1 \nFY 25Q 2 \nFY 25Aug'24\nActSep'24\nActSep'24 \nFcstVar (%) Act CY Bud CY Act LY Bud Act\nDaaS\nRevenue 6,993               7,327              2,378          2,726       2,725       0% 14,320      14,806        11,827      25% 21%\nCost 4,544               4,524              1,476          1,583       1,588       0% 9,069        9,565           7,925         -21% -14%\nEBITDA 2,449               2,803              902             1,144       1,137       0% 5,252        5,241           3,902         34% 35%\nDistribution\nRevenue 5,532               6,007              1,929          2,124       2,134       0% 11,539      11,825        10,662      11% 8%\nCost 5,056               4,753              1,584          1,545       1,639       6% 9,809        9,730           9,193         -6% -7%\nEBITDA 476                  1,253              346             579           495           17% 1,729        2,094           1,469         43% 18%\nMartech\nRevenue 15,405             15,466            5,055          5,173       5,253       -2% 30,871      33,725        27,388      23% 13%\nCost 12,882             12,959            4,349          4,355       4,401       1% 25,840      28,350        22,327      -27% -16%\nEBITDA 2,523               2,507              706             818           852           -4% 5,030        5,375           5,061         6% -1%\nConsol\nNet Revenue 27,930             29,399            9,363          10,624     10,712     -1% 57,329      60,356        49,877      21% 15%\nGross Revenue 30,682             32,131            10,264       11,532     11,677     -1% 62,813      66,148        54,929      20% 14%\nCost 22,482             22,491            7,409          7,738       7,883       2% 44,973      47,646        39,445      -21% -14%\nEBITDA 5,436               6,840              1,934          2,856       2,801       2% 12,276      12,692        10,323      23% 19%\nEBITDA % 17.7% 21.3% 18.8% 24.8% 24.0% 19.5% 19.2% 18.8%Monthly Snapshot H1 FY'25 Snapshot Growth %Consolidated Profit & Loss ( Summary )\nNote: without IHG revenueWithout IHG & ESOP expenses",
+    "month": "September",
+    "year": 2024,
+    "page_number": 6,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "table",
+    "business_units": [
+      "DaaS",
+      "Distribution",
+      "MarTech"
+    ],
+    "financial_metrics": [
+      "Net Revenue",
+      "Gross Revenue",
+      "Cost",
+      "EBITDA",
+      "EBITDA %",
+      "YoY Growth",
+      "Variance (Actual vs Forecast)",
+      "Actual vs Budget"
+    ],
+    "table_headers": [
+      "BU ($'000)",
+      "Q1 FY 25",
+      "Q2 FY 25",
+      "Monthly Snapshot (Aug'24 Act, Sep'24 Act, Sep'24 Fcst, Var (%))",
+      "H1 FY'25 Snapshot (Act CY, Bud CY)",
+      "Growth % (Act LY, Bud Act)"
+    ],
+    "section_title": "Consolidated Profit & Loss ( Summary )",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "Q1 FY 25",
+      "Q2 FY 25",
+      "H1 FY'25",
+      "August 2024",
+      "September 2024",
+      "FY24"
+    ],
+    "chunk_id": "september_2_p6_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "complex"
+  },
+  {
+    "text": "Note: New Booking data excludes Engage AI •H1’25 (Y-o-Y) revenue  growth  is at 15%, \nprimarily  contributed  by both  DaaS  & \nMarTech  revenue  (up by 16 & 14% Y-o-Y)\n➢ H1 EBITDA  reported  at $12.3mn vs. \n$10.3mn last  year  (+ 19% Y-o-Y). From  \nbudget,  H1 EBITDA  is down  by 3% \n➢FY’25 new  bookings  were  up by 8% Y-\no-Y& off from  budget  by (16%)\n➢FY’25 GMs  are at 70% in line  with  the \nplan  and  last  year\n•Sep  EBITDA  is at $2,856 k which  is 24.8% \nof Sep  Gross  revenue  (27% of net \nincome) ; Gross  Revenue  in line  with  \nforecast  at $11.53mn\n•Sep  expenses  were  $143 k better  on \naccount  of savings  in each  business  \nvertical . Most  of the department  line  \nitems  were  favorable  based  on the \nforecast .  On YTD  basis  budgeted  cost  -\n($45mn (Act)  v/s $47.6mn (Bud))",
+    "month": "September",
+    "year": 2024,
+    "page_number": 7,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "executive_summary",
+    "business_units": [
+      "DaaS",
+      "MarTech"
+    ],
+    "financial_metrics": [
+      "Revenue",
+      "Growth",
+      "EBITDA",
+      "New bookings",
+      "Gross Margin",
+      "Gross Revenue",
+      "Net Income",
+      "Expenses"
+    ],
+    "table_headers": null,
+    "section_title": "Consolidated Profit & Loss ( with Adara )",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "H1'25",
+      "FY'25",
+      "Sep",
+      "YTD"
+    ],
+    "chunk_id": "september_2_p7_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "17Consolidated Profit & Loss ( with Adara )\nConsole with \nAdara($'000)Q 1 \nFY 25Q 2 \nFY 25Aug'24\nActSep'24\nActSep'24 \nFcstFcst VarYTD 24-25 \n(Actual)%YTD 23-24 % YoY VarYTD 24-25 \n(Budget)%Plan \nVar\nNew Bookings 14,269    18,876    6,301   7,391    6,626      12% 33,145      30,629      8% 39,664      -16%\nGAAP Revenue 27,930    29,399    9,363    10,624   10,712    -1% 57,329      49,877      100% 15% 60,356      100% -5%\n - DaaS 9,982       10,412     3,324    3,737     3,725      0% 20,394      36% 17,510      35% 16% 21,486      36% -5%\n - Distribution 5,532       6,007       1,929    2,124     2,134      0% 11,539      20% 10,662      21% 8% 11,825      20% -2%\n - MarTech 12,416     12,380     4,109    4,163     4,068      2% 24,796      43% 21,705      44% 14% 27,045      45% -8%\n-       -         \nCOGS 8,379       8,630       2,903    2,926     2,860      -2% 17,009      30% 14,176      28% -20% 17,252      29% 1%\nRev Share 178          184          60         61          62            2% 362           1% 414           1% 13% 392           1% 8%\nAd Network Fees 2,047      2,450      881      847       847          0% 4,498       8% 2,628       5% -71% 4,582       8% 2%\nData 1,594      1,504       497      512       507          -1% 3,098       5% 3,247       7% 5% 3,970       7% 22%\nHosting 2,072      2,107       711      674       668          -1% 4,179       7% 2,673       5% -56% 3,563       6% -17%\nProxy 288          386           119      162       136          -19% 675           1% 531           1% -27% 658           1% -3%\nClient Services 430          393           122      123       120          -2% 823           1% 906           2% 9% 896           1% 8%\nCreative 400          396           127      134       128          -5% 796           1% 788           2% -1% 812           1% 2%\nMonitoring 94            79             25         24          21            -10% 173           0% 192           0% 10% 186           0% 7%\nIT & Telecom 1,275      1,131       362       390        372          -5% 2,406        4% 2,796        6% 14% 2,192        4% -10%\nGM 19,552     20,769     6,459    7,698     7,852      40,321      35,701      13% 43,104      \nGM % 70% 71% 69% 72% 73% 70% 72% 71%\nSales 3,378       3,311       1,107    1,105     1,121      1% 6,688        12% 6,067        12% -10% 7,216        12% 7%\nAccount Management 2,174       2,180       717       726        745          3% 4,353        8% 3,622        7% -20% 4,640        8% 6%\nMarketing 939           734           273       235        304          23% 1,673        3% 1,313        3% -27% 1,716        3% 3%\nOperations 2,275       2,215       727       732        732          0% 4,490        8% 4,405        9% -2% 5,195        9% 14%\nEngg 2,163       2,114       701       721        763          5% 4,277        7% 3,723        7% -15% 4,816        8% 11%\nPMG 717           709           242       236        258          8% 1,426        2% 1,209        2% -18% 1,525        3% 6%\nCEO/Chairman Office 517           459           145       145        187          22% 975            2% 1,331        3% 27% 1,364        2% 28%\nFinance 835           855           268       299        284          -5% 1,690        3% 1,584        3% -7% 1,716        3% 1%\nHR 582           511           162       170        205          17% 1,094        2% 1,025        2% -7% 1,180        2% 7%\nFacilities 332           345           108       120        103          -17% 676            1% 620            1% -9% 625            1% -8%\nSocial Media Spend 5               (13)            (4)           5             -           (8)               0% (25)             0% -66% -             0% 0%\nRG Labs- Content AI 10             10             4            4             6              39% 20              0% 40              0% 49% 44              0% 54%\nRG Labs- 12             68             19          30           28            -4% 80              0% 109            0% 26% 18              0% -338%\nBad and Doubtful Debt 178           178           59          59           59            0% 357            1% 355            1% 0% 357            1% 0%\nTotal Expenses 22,495     22,561     7,430    7,768     7,911      2% 45,056      79% 39,554      79% -14% 47,664      79% 5%\nGAAP EBITDA 5,435       6,838       1,933    2,856     2,801      2% 12,273      10,323      19% 12,692      -3%\n% 19% 23% 21% 27% 26% 21% 21% 21%",
+    "month": "September",
+    "year": 2024,
+    "page_number": 7,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "table",
+    "business_units": [
+      "DaaS",
+      "Distribution",
+      "MarTech"
+    ],
+    "financial_metrics": [
+      "New bookings",
+      "GAAP Revenue",
+      "COGS",
+      "Gross Margin",
+      "Margins",
+      "EBITDA",
+      "Growth",
+      "YoY"
+    ],
+    "table_headers": [
+      "Console with Adara($'000)",
+      "Q1 FY 25",
+      "Q2 FY 25",
+      "Aug'24 Act",
+      "Sep'24 Act",
+      "Sep'24 Fcst",
+      "Fcst Var",
+      "YTD 24-25 (Actual)",
+      "%",
+      "YTD 23-24",
+      "%",
+      "YoY Var",
+      "YTD 24-25 (Budget)",
+      "%",
+      "Plan Var"
+    ],
+    "section_title": "Consolidated Profit & Loss ( with Adara )",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "Q1 FY 25",
+      "Q2 FY 25",
+      "Aug'24",
+      "Sep'24",
+      "YTD 24-25",
+      "YTD 23-24"
+    ],
+    "chunk_id": "september_2_p7_c1",
+    "confidence_score": 0.8,
+    "complexity_level": "complex"
+  },
+  {
+    "text": "18\nJan Feb Mar Apr May June July Aug Sep Sep YTD'25 YTD'25\nFcst Act Bud\nProduct\nInvestment Stage (103)          (111)          (111)          (117)       (124)       (115)       (75)          (77)          (88)          (89)           (597)            (589)          \nUno (101)          (111)          (111)          (117)       (124)       (115)       (75)          (77)          (88)          (89)           (597)            (589)          \nLegacy (62)            20             182           2             60           42           15           13           14           12            146             (50)            \nOptima (78)            66             60             2             60           42           15           13           14           12            146             (50)            \nGrowth Stage (32)            (3)              23             (15)          (37)          13           9             (10)          11           (14)           (29)              (144)          \nRev.AI (32)            (3)              23             (15)          (37)          13           9             (10)          11           (14)           (29)              (144)          \nAcquired BU\nBCV (38)            10             (160)          11           (4)            9             (31)          (29)          (73)          (41)           (117)            21              \nMonthly Burn (236)      (84)         (66)         (119)    (106)    (52)      (82)      (102)    (136)    (132)     (596)         (762)          \nBurn Annualized (basis respective month run-rate) (2,828)   (1,011)   (787)      (1,428)  (1,266)  (621)    (985)    (1,230)  (1,627)  (1,581)  SummaryMonthly ActualLoss -making/Investment products M -o-M Burn (Act) v/s ( fcst)\n•On YTD  basis we burned a total \nof $596k  in loss -making product \nvs. an estimate of $762k•The average Uno monthly burn \nreduced from $110k (average) to \n$88k post revenue uptick",
+    "month": "September",
+    "year": 2024,
+    "page_number": 8,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "table",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": [],
+    "section_title": "",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_2_p8_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "18\nJan Feb Mar Apr May June July Aug Sep Sep YTD'25 YTD'25\nFcst Act Bud\nProduct\nInvestment Stage (103)          (111)          (111)          (117)       (124)       (115)       (75)          (77)          (88)          (89)           (597)            (589)          \nUno (101)          (111)          (111)          (117)       (124)       (115)       (75)          (77)          (88)          (89)           (597)            (589)          \nLegacy (62)            20             182           2             60           42           15           13           14           12            146             (50)            \nOptima (78)            66             60             2             60           42           15           13           14           12            146             (50)            \nGrowth Stage (32)            (3)              23             (15)          (37)          13           9             (10)          11           (14)           (29)              (144)          \nRev.AI (32)            (3)              23             (15)          (37)          13           9             (10)          11           (14)           (29)              (144)          \nAcquired BU\nBCV (38)            10             (160)          11           (4)            9             (31)          (29)          (73)          (41)           (117)            21              \nMonthly Burn (236)      (84)         (66)         (119)    (106)    (52)      (82)      (102)    (136)    (132)     (596)         (762)          \nBurn Annualized (basis respective month run-rate) (2,828)   (1,011)   (787)      (1,428)  (1,266)  (621)    (985)    (1,230)  (1,627)  (1,581)  SummaryMonthly ActualLoss -making/Investment products M -o-M Burn (Act) v/s ( fcst)\n•On YTD  basis we burned a total \nof $596k  in loss -making product \nvs. an estimate of $762k•The average Uno monthly burn \nreduced from $110k (average) to \n$88k post revenue uptick",
+    "month": "September",
+    "year": 2024,
+    "page_number": 8,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "financial_analysis",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": [],
+    "section_title": "",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_2_p8_c1",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "19\nRevenue (by business unit) – GAAP revenue\nBU's ($'000) YTD FY'25 % YTD FY'24 % Growth\nDaaS 14,320      23% 11,827      22% 21%\nNavigator (Optima) 1,271        2% 1,072        2% 19%\nRate Parity 487            1% 458            1% 6%\nOthers / Demand AI 56              0% 102            0% -45%\nPG - Air 1,420        2% 1,095        2% 30%\nPG - Car 2,137        3% 1,888        3% 13%\nPG Cruise 177            0% 175            0% 1%\nPG OTA 7,903        13% 6,375        12% 24%\nRevAI 870            1% 664            1% 31%\nDistribution 11,539      19% 10,653      19% 8%\nEnterprise Connectivity 11,539      19% 10,653      19% 8%\nRezGain 1,951        3% 2,250        4% -13%\nUno Standalone 143            0% 6                0% 2371%\nEnterprise Connectivity OTA 4,055        7% 4,409        8% -8%\nGDS 3,204        5% 2,118        4% 51%\nContent 1,420        2% 1,472        3% -4%\nOthers 765            398            92%\nMartech 30,885      50% 27,383      50% 13%\nMartech Ad-Spend 5,013        8% 4,613        8% 9%\nBCV 2,654        4% 2,993        5% -11%\nBCV NORAM 2,544        4% 2,845        5% -11%\nBCV APMEA 110            0% 147            0% -25%\nBCV Ad-Sepnd 639            1% 669            1% -5%\nMHS 3,706        6% 3,494        6% 6%\nMHS Ad-Spend 4,374        7% 3,944        7% 11%\nAdara (G2A) 24,525      39% 20,897      38% 17%\nReimbursment & Rate Parity 470            1% 439            1% 7%\nRG Consol Gross Revenue 62,227      100% 54,915      100% 13%\nRG Consol Net Revenue 56,744      91% 49,863      91% 14%\nNote: Revenue numbers are excluding Knowland",
+    "month": "September",
+    "year": 2024,
+    "page_number": 9,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "narrative",
+    "business_units": [],
+    "financial_metrics": [],
+    "table_headers": [],
+    "section_title": "",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_2_p9_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "20Regional Revenue (by product) – GAAP revenue",
+    "month": "September",
+    "year": 2024,
+    "page_number": 10,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "section_header",
+    "business_units": [],
+    "financial_metrics": [
+      "Revenue (GAAP)"
+    ],
+    "table_headers": [],
+    "section_title": "Regional Revenue (by product) – GAAP revenue",
+    "contains_numbers": false,
+    "has_comparisons": false,
+    "period_references": [],
+    "chunk_id": "september_2_p10_c0",
+    "confidence_score": 0.8,
+    "complexity_level": "simple"
+  },
+  {
+    "text": "Note: Revenue numbers are excluding Knowland\nDaaS:\n•NORAM  biz flat to negative due to high \nchurn – ALG Revgain , TravelBrand , Hotel \nengine\n•EUROPE  biz shown impressive growth \ndue to  – Expedia, Booking & SIXT\nDistribution:\n•CM business is down in the APMEA \nregion mainly due to the churn of Archi & \ndecline in OYO revenue\n•Enterprise connectivity business is \ngrowing primarily in NORAM due to the \nMarriott /GDS project\nMartech :\n▪BCV NORAM revenue is down \n8% from YTD LFY due to high \nChurn i.e., Aqua Aston, Hotel \nColorado, Hilton, Marriott \nproperties\n▪BCV APMEA revenue is down by \n43% majorly due to Churn of all \nIHG properties and other \nregional hotels.\n•Adara NORAM  Revenue is up by \n11% mostly on Media Side, \nEurope  team revenue is up by \n43%, & APAC team revenue is \nup by 37% again major \ncontribution by the Media \nbusiness",
+    "month": "September",
+    "year": 2024,
+    "page_number": 10,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "financial_analysis",
+    "business_units": [
+      "DaaS",
+      "Distribution",
+      "MarTech"
+    ],
+    "financial_metrics": [
+      "Revenue",
+      "Churn",
+      "Growth"
+    ],
+    "table_headers": [],
+    "section_title": "Regional Revenue (by product) – GAAP revenue",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "YTD LFY"
+    ],
+    "chunk_id": "september_2_p10_c1",
+    "confidence_score": 0.8,
+    "complexity_level": "moderate"
+  },
+  {
+    "text": "Product/BU ($000) FY 24 YTD FY24 YTD FY25 YTD Growth Product/BU ($000) FY 24 YTD FY24 YTD FY25 YTD Growth Product/BU ($000) FY 24 YTD FY24 YTD FY25 YTD Growth\nDaaS A=(1)+(2) 8,551$   4,080$     4,239$     4% DaaS 12,229$ 5,166$     7,150$     38% DaaS 5,637$   2,489$     2,789$     12%\nTravel BI (1) 6,129$   2,966$     2,977$     0% Travel BI 11,665$ 4,906$     6,764$     38% Travel BI 5,028$   2,178$     2,540$     17%\n   PG Air+ Crusie 804 $      377 $        378 $        0%    PG Air+ Crusie 826 $      419 $        510 $        22%    PG Air+ Crusie 1,090$   425 $        670 $        57%\n   PG Car 2,746$   1,363$     1,428$     5%    PG Car 814 $      364 $        564 $        55%    PG Car 257 $      101 $        87 $          -14%\n   Rev.AI 817 $      426 $        385 $        -10%    Rev.AI 435 $      204 $        351 $        72%    Rev.AI 55 $        11 $          51 $          355%\n   PG OTA 1,762$   799 $        787 $        -2%    PG OTA 9,590$   3,919$     5,340$     36%    PG OTA 3,626$   1,640$     1,732$     6%\nHopsi BI (2) 2,422$   1,114$     1,262$     13% Hopsi BI 563 $      260 $        386 $        48% Hopsi BI 609 $      311 $        249 $        -20%\n  Optima 1,436$   581 $        707 $        22%   Optima 420 $      191 $        332 $        74%   Optima 394 $      191 $        150 $        -21%\n  Parity 977 $      528 $        552 $        5%   Parity 85 $        41 $          40 $          -2%   Parity 146 $      82 $          82 $          0%\n  Others 10 $        5 $            3 $            -40%   Others 58 $        28 $          14 $          -50%   Others 70 $        38 $          17 $          -55%\nDistribution 13,954$ 6,677$     7,410$     11% Distribution 5,034$   2,201$     2,337$     6% Distribution 3,964$   1,967$     1,976$     0%\n   Ent. Connectivity 13,681$ 6,532$     7,249$     11%    Ent. Connectivity 4,481$   2,027$     2,094$     3%    Ent. Connectivity 320 $      102 $        345 $        239%\n   Channel Manager 273 $      144 $        161 $        11%    Channel Manager 552 $      174 $        172 $        -1%    Channel Manager 3,619$   1,859$     1,560$     -16%\n   UNO - $       - $         - $            UNO 0 $          - $         71 $             UNO 25 $        6 $            71 $          1128%\nMartech 40,092$ 20,100$   21,793$   8% Martech 19,204$ 9,569$     10,779$   13% Martech 5,253$   2,327$     3,319$     43%\n   BCV 6,702$   3,418$     3,151$     -8%    BCV - $       - $         - $            BCV 325 $      247 $        142 $        -43%\n   MHS 949 $      426 $        645 $        51%    MHS 14,025$ 6,849$     6,885$     1%    MHS 417 $      159 $        544 $        242%\n   ADARA 32,440$ 16,256$   17,998$   11%    ADARA 5,179$   2,720$     3,894$     43%    ADARA 4,511$   1,921$     2,633$     37%\nConsol 62,597$ 30,856$   33,442$   8% Consol 36,466$ 16,936$   20,267$   20% Consol 14,854$ 6,783$     8,084$     19%\nNORAM EU APMEA\nProduct/BU ($000) FY 24 YTD FY24 YTD FY25 YTD Growth\nDaaS 659$  264 $        369 $        40%\nTravel BI 388$  147 $        225 $        53%\n   PG Air+ Crusie 137$  48 $          39 $          -20%\n   PG Car 134$  60 $          59 $          -1%\n   Rev.AI 62$    22 $          83 $          269%\n   PG OTA 55$    17 $          44 $          165%\nHopsi BI 271$  117 $        144 $        23%\n  Optima 180$  71 $          95 $          34%\n  Parity 34$    14 $          26 $          86%\n  Others 57$    32 $          23 $          -28%\nDistribution 139$  72 $          59 $          -18%\n   Ent. Connectivity -$  - $         - $         \n   Channel Manager 139$  72 $          58 $          -19%\n   UNO 1$      - $         1 $            \nMartech 10$    5 $            6 $            25%\n   BCV -$  - $         - $         \n   MHS 10$    5 $            6 $            25%\n   ADARA -$  - $         - $         \nConsol 808$  341 $        434 $        27%\nLATAM",
+    "month": "September",
+    "year": 2024,
+    "page_number": 10,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "table",
+    "business_units": [
+      "DaaS",
+      "Travel BI",
+      "Hopsi BI",
+      "Distribution",
+      "Enterprise Connectivity",
+      "MarTech",
+      "BCV",
+      "MHS",
+      "Adara"
+    ],
+    "financial_metrics": [
+      "Revenue (GAAP)",
+      "Growth"
+    ],
+    "table_headers": [
+      "Product/BU ($000)",
+      "FY 24 YTD",
+      "FY24 YTD",
+      "FY25 YTD",
+      "Growth"
+    ],
+    "section_title": "Regional Revenue (by product) – GAAP revenue",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "FY24 YTD",
+      "FY25 YTD"
+    ],
+    "chunk_id": "september_2_p10_c2",
+    "confidence_score": 0.8,
+    "complexity_level": "complex"
+  },
+  {
+    "text": "Product/BU ($000) FY 24 YTD FY24 YTD FY25 Growth\nDaaS 27,076$    11,998$   14,547$   21%\nTravel BI 23,211$    10,196$   12,506$   23%\n   PG Air+ Crusie 2,856$      1,270$     1,596$     26%\n   PG Car 3,952$      1,888$     2,137$     13%\n   Rev.AI 1,369$      664 $        870 $        31%\n   PG OTA 15,033$    6,375$     7,903$     24%\nHopsi BI 3,865$      1,802$     2,041$     13%\n  Optima 2,430$      1,034$     1,284$     24%\n  Parity 1,241$      665 $        700 $        5%\n  Others 195 $         103 $        57 $          -45%\nDistribution 23,090$    10,917$   11,782$   8%\n   Ent. Connectivity 18,482$    8,661$     9,688$     12%\n   Channel Manager 4,582$      2,250$     1,951$     -13%\n   UNO 26 $           6 $            143 $        n/m\nMartech 64,559$    32,000$   35,897$   12%\n   BCV 7,028$      3,665$     3,293$     -10%\n   MHS 15,402$    7,438$     8,080$     9%\n   ADARA 42,130$    20,897$   24,525$   17%\nConsol 114,725$  54,915$   62,227$   13%\nConsol GAAP Revenue Gross w/o IHG & knowland",
+    "month": "September",
+    "year": 2024,
+    "page_number": 10,
+    "file_source": "C:\\Users\\New Test\\Desktop\\RateGain_RAG\\Documents_Sample\\september_2.pdf",
+    "document_name": "september_2",
+    "chunk_type": "table",
+    "business_units": [
+      "DaaS",
+      "Travel BI",
+      "Hopsi BI",
+      "Distribution",
+      "Enterprise Connectivity",
+      "MarTech",
+      "BCV",
+      "MHS",
+      "Adara"
+    ],
+    "financial_metrics": [
+      "Revenue (GAAP)",
+      "Revenue (Gross)",
+      "Growth"
+    ],
+    "table_headers": [
+      "Product/BU ($000)",
+      "FY 24 YTD",
+      "FY24 YTD",
+      "FY25",
+      "Growth"
+    ],
+    "section_title": "Consol GAAP Revenue Gross w/o IHG & knowland",
+    "contains_numbers": false,
+    "has_comparisons": true,
+    "period_references": [
+      "FY24 YTD",
+      "FY25 YTD"
+    ],
+    "chunk_id": "september_2_p10_c3",
+    "confidence_score": 0.8,
+    "complexity_level": "complex"
+  }
+]
