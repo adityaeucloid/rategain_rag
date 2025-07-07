@@ -654,9 +654,10 @@ class EnhancedFinancialRAG:
             logging.error(f"Error in enhanced retrieval: {e}")
             return []
 
-    def _run_chartered_financial_analyst(self, query: str, chunks: List[EnhancedTemporalChunk]) -> Tuple[Optional[str], Optional[str]]:
-        """Chartered Financial Analyst for complex analysis"""
-        # Prepare comprehensive context
+    def _run_chartered_financial_analyst(self, query: str, chunks: List[EnhancedTemporalChunk], chat_history: Optional[List[dict]] = None) -> Tuple[Optional[str], Optional[str]]:
+        """Chartered Financial Analyst for complex analysis, context aware."""
+        if chat_history is None:
+            chat_history = []
         context_parts = []
         for chunk in chunks:
             context_parts.append(f"""
@@ -667,11 +668,20 @@ class EnhancedFinancialRAG:
             {chunk.text}
             """)
         context = "\n\n".join(context_parts)
+        # Add chat history context
+        history_str = "\n".join([
+            f"User: {msg['content']}" if msg['role'] == 'user' else f"Assistant: {msg['content']}"
+            for msg in chat_history if msg['role'] in ('user', 'assistant')
+        ])
         cfa_prompt = f"""
         You are a senior Chartered Financial Analyst (CFA) with 15+ years of experience in financial analysis, 
         corporate finance, and strategic consulting. You specialize in SaaS company analysis and travel technology sector.
-        **CRITICAL INSTRUCTION**: Use <thinking> tags to show your analytical reasoning process step by step. 
-        This thinking should be visible to demonstrate your analytical methodology.
+        **CRITICAL INSTRUCTION**: Do NOT make up or estimate any numbers. Only use numbers, values, or facts that are explicitly present in the provided context. If a number is not found, state that it is not available. Never attempt to calculate or guess values. If the user asks for a calculation, only perform it if all required numbers are present in the context.
+        Use <thinking> tags to show your analytical reasoning process step by step. This thinking should be visible to demonstrate your analytical methodology.
+        
+        **Chat History:**
+        {history_str}
+        
         Query: {query}
         <thinking>
         Let me analyze this query systematically:
@@ -709,9 +719,10 @@ class EnhancedFinancialRAG:
             logging.error(f"Error in CFA analysis: {e}")
             return None, None
 
-    def _generate_simple_response(self, query: str, chunks: List[EnhancedTemporalChunk]) -> str:
-        """Generate simple, direct response for factual queries"""
-        
+    def _generate_simple_response(self, query: str, chunks: List[EnhancedTemporalChunk], chat_history: Optional[List[dict]] = None) -> str:
+        """Generate simple, direct response for factual queries. Uses chat_history for context."""
+        if chat_history is None:
+            chat_history = []
         # Prepare context
         context_parts = []
         for chunk in chunks[:8]:  # Top 8 chunks for simple queries
@@ -719,53 +730,62 @@ class EnhancedFinancialRAG:
             --- {chunk.month} {chunk.year} | {chunk.section_title} ---
             {chunk.text}
             """)
-        
         context = "\n\n".join(context_parts)
-        
+        # Add chat history context
+        history_str = "\n".join([
+            f"User: {msg['content']}" if msg['role'] == 'user' else f"Assistant: {msg['content']}"
+            for msg in chat_history if msg['role'] in ('user', 'assistant')
+        ])
         simple_prompt = f"""
         You are an expert financial analyst with detailed knowledge of RateGain Travel Technologies.
         
-        **CRITICAL INSTRUCTION**: Maintain consistent font formatting throughout your response.
+        **CRITICAL INSTRUCTION**: Do NOT make up or estimate any numbers. Only use numbers, values, or facts that are explicitly present in the provided Financial Data Context. If a number is not found, state that it is not available. Never attempt to calculate or guess values. If the user asks for a calculation, only perform it if all required numbers are present in the context.
         
         **User Query:** {query}
+        
+        **Chat History:**
+        {history_str}
         
         **Financial Data Context:**
         {context}
         
         Provide a clear, direct answer that includes:
-        
         1. **Direct Answer**: Address the specific question clearly
-        2. **Key Financial Metrics**: Present relevant numbers
+        2. **Key Financial Metrics**: Present relevant numbers (only if present in context)
         3. **Context**: Brief background if helpful
         4. **Source Reference**: Mention the time period/document if relevant
         
-        Keep the response concise and factual. Use specific numbers where available.
-        If any information is missing, clearly state what is not available.
+        Keep the response concise and factual. Use specific numbers where available. If any information is missing, clearly state what is not available.
         
         **Analysis:**
         """
-        
         try:
             self.rate_limiter.wait_if_needed()
             response = self.llm.invoke(simple_prompt)
             content = response.content if hasattr(response, 'content') else str(response)
-            
             if not isinstance(content, str):
                 content = str(content)
-            
             return content
-            
         except Exception as e:
             logging.error(f"Error generating simple response: {e}")
             return f"Error processing query: {str(e)}"
 
-    def _generate_complex_response(self, query: str, cfa_analysis: str) -> str:
-        """Generate complex response incorporating CFA analysis"""
-        
+    def _generate_complex_response(self, query: str, cfa_analysis: str, chat_history: Optional[List[dict]] = None) -> str:
+        """Generate complex response incorporating CFA analysis and chat history."""
+        if chat_history is None:
+            chat_history = []
+        # Add chat history context
+        history_str = "\n".join([
+            f"User: {msg['content']}" if msg['role'] == 'user' else f"Assistant: {msg['content']}"
+            for msg in chat_history if msg['role'] in ('user', 'assistant')
+        ])
         complex_prompt = f"""
         You are a senior financial analyst providing insights based on comprehensive CFA analysis.
         
-        **CRITICAL INSTRUCTION**: Maintain consistent font formatting throughout your response.
+        **CRITICAL INSTRUCTION**: Do NOT make up or estimate any numbers. Only use numbers, values, or facts that are explicitly present in the CFA Expert Analysis or the provided context. If a number is not found, state that it is not available. Never attempt to calculate or guess values. If the user asks for a calculation, only perform it if all required numbers are present in the context.
+        
+        **Chat History:**
+        {history_str}
         
         A Chartered Financial Analyst has provided the following expert analysis:
         
@@ -775,7 +795,6 @@ class EnhancedFinancialRAG:
         **User Query:** {query}
         
         Synthesize the CFA analysis to provide a comprehensive response that:
-        
         1. **Executive Summary**: Key findings and direct answer
         2. **Financial Analysis**: Detailed insights from the data
         3. **Root Cause Analysis**: Why these results occurred
@@ -783,234 +802,63 @@ class EnhancedFinancialRAG:
         5. **Strategic Recommendations**: Actionable next steps
         
         Structure your response clearly with headers and bullet points for readability.
-        Include specific numbers and percentages where available.
+        Include specific numbers and percentages where available (only if present in context).
         
         **Comprehensive Analysis:**
         """
-        
         try:
             self.rate_limiter.wait_if_needed()
             response = self.llm.invoke(complex_prompt)
             content = response.content if hasattr(response, 'content') else str(response)
-            
             if not isinstance(content, str):
                 content = str(content)
-            
             return content
-            
         except Exception as e:
             logging.error(f"Error generating complex response: {e}")
             return f"Error processing query: {str(e)}"
 
-    def _create_workflow(self):
-        """Create enhanced LangGraph workflow"""
-        workflow = StateGraph(FinancialAnalysisState)
-
-        def log_node(name, fn):
-            def wrapper(state):
-                logging.info(f"[LangGraph] Entering node: {name}")
-                return fn(state)
-            return wrapper
-
-        # Add nodes for document processing
-        workflow.add_node("extract_files", log_node("extract_files", lambda state: self._extract_pdf_files(state)))
-        workflow.add_node("extract_pages", log_node("extract_pages", lambda state: self._extract_pages_with_metadata(state)))
-        workflow.add_node("enhanced_chunking", log_node("enhanced_chunking", lambda state: self._enhanced_semantic_chunking(state)))
-        workflow.add_node("build_vector_store", log_node("build_vector_store", lambda state: self._build_enhanced_vector_store(state)))
-
-        # Add nodes for query processing
-        workflow.add_node("analyze_query_complexity", log_node("analyze_query_complexity", lambda state: self._analyze_query_complexity(state)))
-        workflow.add_node("temporal_retrieval", log_node("temporal_retrieval", lambda state: self._enhanced_temporal_retrieval(state)))
-        workflow.add_node("cfa_analysis", log_node("cfa_analysis", lambda state: self._chartered_financial_analyst(state)))
-        workflow.add_node("generate_response", log_node("generate_response", lambda state: self._generate_enhanced_response(state)))
-
-        # Add edges for document processing
-        workflow.add_edge("extract_files", "extract_pages")
-        workflow.add_edge("extract_pages", "enhanced_chunking")
-        workflow.add_edge("enhanced_chunking", "build_vector_store")
-        workflow.add_edge("build_vector_store", END)
-
-        # Add conditional edges for query processing
-        workflow.add_edge("analyze_query_complexity", "temporal_retrieval")
-        workflow.add_edge("temporal_retrieval", "cfa_analysis")
-        workflow.add_edge("cfa_analysis", "generate_response")
-        workflow.add_edge("generate_response", END)
-
-        workflow.set_entry_point("extract_files")
-
-        return workflow.compile()
-
-    def query(self, user_question: str) -> Dict[str, Any]:
-        """Process a user query and return comprehensive results"""
-        # Load chunks if not loaded
+    def process_query(self, user_question: str, use_cfa: bool, chat_history: Optional[List[dict]] = None) -> dict:
+        """Process a user query using either simple or CFA (enhanced) flow based on toggle. Accepts chat_history for context awareness."""
         if not self.temporal_chunks:
             self.temporal_chunks = self._load_temporal_chunks()
-
-        def log_node(name, fn):
-            def wrapper(state):
-                logging.info(f"[LangGraph] Entering node: {name}")
-                return fn(state)
-            return wrapper
-
-        query_state = FinancialAnalysisState(
-            pdf_files=[],
-            current_file=None,
-            current_page=None,
-            extracted_pages=[],
-            temporal_chunks=self.temporal_chunks,
-            query=user_question,
-            query_intent=None,
-            query_complexity=None,
-            retrieved_chunks=[],
-            cfa_analysis=None,
-            cfa_reasoning=None,
-            final_response=None,
-            error=None
-        )
-
-        # Create query-specific workflow
-        query_workflow = StateGraph(FinancialAnalysisState)
-        query_workflow.add_node("analyze_query_complexity", log_node("analyze_query_complexity", lambda state: self._analyze_query_complexity(state)))
-        query_workflow.add_node("temporal_retrieval", log_node("temporal_retrieval", lambda state: self._enhanced_temporal_retrieval(state)))
-        query_workflow.add_node("cfa_analysis", log_node("cfa_analysis", lambda state: self._chartered_financial_analyst(state)))
-        query_workflow.add_node("generate_response", log_node("generate_response", lambda state: self._generate_enhanced_response(state)))
-
-        query_workflow.add_edge("analyze_query_complexity", "temporal_retrieval")
-        query_workflow.add_edge("temporal_retrieval", "cfa_analysis")
-        query_workflow.add_edge("cfa_analysis", "generate_response")
-        query_workflow.add_edge("generate_response", END)
-
-        query_workflow.set_entry_point("analyze_query_complexity")
-
-        compiled_workflow = query_workflow.compile()
-        result = compiled_workflow.invoke(query_state)
-
-        return {
-            "response": result.get("final_response", "No response generated"),
-            "cfa_reasoning": result.get("cfa_reasoning"),
-            "cfa_analysis": result.get("cfa_analysis"),
-            "query_complexity": result.get("query_complexity"),
-            "error": result.get("error")
+        if chat_history is None:
+            chat_history = []
+        log = logging.info
+        log(f"[Query] use_cfa={use_cfa}")
+        result = {
+            "response": None,
+            "cfa_reasoning": None,
+            "cfa_analysis": None,
+            "use_cfa": use_cfa,
+            "chunks_used": 0,
+            "error": None
         }
-
-    # --- Workflow Node Adapters ---
-    def _extract_pdf_files(self, state):
-        """Node: extract_files - Scans the Documents_Sample folder and updates state['pdf_files'] with all PDF paths."""
-        documents_folder = os.path.join(os.getcwd(), "Documents_Sample")
-        pdf_files = glob.glob(os.path.join(documents_folder, "*.pdf"))
-        state['pdf_files'] = pdf_files
-        return state
-
-    def _extract_pages_with_metadata(self, state):
-        """Node: extract_pages - Extracts text and metadata from each PDF, updates state['extracted_pages']."""
-        all_pages = []
-        for pdf_path in state.get('pdf_files', []):
-            document_name = os.path.basename(pdf_path).replace('.pdf', '')
-            try:
-                with open(pdf_path, "rb") as pdf:
-                    pdf_reader = PdfReader(pdf)
-                    for page_num, page in enumerate(pdf_reader.pages, 1):
-                        page_text = page.extract_text()
-                        if page_text and page_text.strip():
-                            month, year = self.extract_temporal_info(pdf_path)
-                            page_data = {
-                                'text': page_text,
-                                'page_number': page_num,
-                                'file_source': pdf_path,
-                                'document_name': document_name,
-                                'month': month,
-                                'year': year,
-                                'total_pages': len(pdf_reader.pages)
-                            }
-                            all_pages.append(page_data)
-            except Exception as e:
-                logging.error(f"Error processing {pdf_path}: {e}")
-                continue
-        state['extracted_pages'] = all_pages
-        return state
-
-    def _enhanced_semantic_chunking(self, state):
-        """Node: enhanced_chunking - Chunks each page using LLM, updates state['temporal_chunks']."""
-        all_chunks = []
-        for page_data in state.get('extracted_pages', []):
-            self.rate_limiter.wait_if_needed()
-            chunks = self._process_page_with_semantic_chunking(page_data)
-            all_chunks.extend(chunks)
-            self._save_document_chunks(page_data['document_name'], chunks)
-        state['temporal_chunks'] = all_chunks
-        return state
-
-    def _build_enhanced_vector_store(self, state):
-        """Node: build_vector_store - Builds the FAISS vector store from all chunks."""
+        query_path = ["Retrieval"]
         try:
-            chunks = state.get('temporal_chunks', [])
-            texts = []
-            metadatas = []
-            for chunk in chunks:
-                enhanced_text = f"""
-                Document: {chunk.document_name}
-                Month: {chunk.month} {chunk.year}
-                Page: {chunk.page_number}
-                Section: {chunk.section_title}
-                Business Units: {', '.join(chunk.business_units)}
-                Financial Metrics: {', '.join(chunk.financial_metrics)}
-                Period References: {', '.join(chunk.period_references)}
-                Type: {chunk.chunk_type}
-                Content:
-                {chunk.text}
-                """
-                texts.append(enhanced_text)
-                metadatas.append({
-                    "chunk_id": chunk.chunk_id,
-                    "document_name": chunk.document_name,
-                    "month": chunk.month,
-                    "year": chunk.year,
-                    "page_number": chunk.page_number,
-                    "chunk_type": chunk.chunk_type,
-                    "business_units": chunk.business_units,
-                    "financial_metrics": chunk.financial_metrics,
-                    "section_title": chunk.section_title,
-                    "complexity_level": chunk.complexity_level,
-                    "has_comparisons": chunk.has_comparisons,
-                    "period_references": chunk.period_references
-                })
-            self.vector_store = FAISS.from_texts(texts, self.embeddings, metadatas=metadatas)
-            self.vector_store.save_local(VECTOR_STORE_PATH)
-            self._save_all_temporal_chunks(chunks)
-            logging.info(f"Built enhanced vector store with {len(chunks)} chunks")
+            if use_cfa:
+                retrieved_chunks = self._enhanced_retrieval(user_question, k=15)
+                result["chunks_used"] = len(retrieved_chunks)
+                log("[Node] CFA Analysis")
+                query_path.append("CFA Analysis")
+                thinking, analysis = self._run_chartered_financial_analyst(user_question, retrieved_chunks, chat_history)
+                result["cfa_reasoning"] = thinking
+                result["cfa_analysis"] = analysis
+                log("[Node] Complex Response Generation")
+                query_path.append("Complex Response Generation")
+                response = self._generate_complex_response(user_question, analysis or "", chat_history)
+                result["response"] = response
+            else:
+                retrieved_chunks = self._simple_retrieval(user_question, k=10)
+                result["chunks_used"] = len(retrieved_chunks)
+                log("[Node] Simple Response Generation")
+                query_path.append("Simple Response Generation")
+                response = self._generate_simple_response(user_question, retrieved_chunks, chat_history)
+                result["response"] = response
         except Exception as e:
-            logging.error(f"Error building vector store: {e}")
-            state['error'] = str(e)
-        return state
-
-    def _analyze_query_complexity(self, state):
-        """Node: analyze_query_complexity - Uses LLM to analyze the query and update state['query_intent'] and state['query_complexity']."""
-        query = state.get('query', '')
-        # Use your existing logic for query complexity analysis here
-        # For now, just pass through
-        return state
-
-    def _enhanced_temporal_retrieval(self, state):
-        """Node: temporal_retrieval - Retrieves relevant chunks for the query, updates state['retrieved_chunks']."""
-        query = state.get('query', '')
-        # Use your existing retrieval logic here
-        # For now, just pass through
-        return state
-
-    def _chartered_financial_analyst(self, state):
-        """Node: cfa_analysis - Runs CFA analysis on retrieved chunks, updates state['cfa_reasoning'] and state['cfa_analysis']."""
-        query = state.get('query', '')
-        chunks = state.get('retrieved_chunks', [])
-        thinking, analysis = self._run_chartered_financial_analyst(query, chunks)
-        state['cfa_reasoning'] = thinking
-        state['cfa_analysis'] = analysis
-        return state
-
-    def _generate_enhanced_response(self, state):
-        """Node: generate_response - Generates the final response using the LLM, updates state['final_response']."""
-        # Use your existing response generation logic here
-        # For now, just pass through
-        return state
+            log(f"Error processing query: {e}")
+            result["error"] = str(e)
+        log(f"[Query Path] {' -> '.join(query_path)}")
+        return result
 
 # Simplified Streamlit Application
 def main():
@@ -1105,59 +953,50 @@ def main():
                             st.write(message["cfa_reasoning"])
                 else:
                     st.caption("⚡ Fast Analysis Mode")
-                
                 st.write(message["content"])
-                
                 # Show performance info
                 if message.get("chunks_used"):
                     st.caption(f"📄 Analyzed {message['chunks_used']} document chunks")
             else:
                 st.write(message["content"])
-    
-    # Chat input with CFA toggle
+
+    # --- Move chat input and toggle to the very end of the main function ---
     col1, col2 = st.columns([6, 1])
-    
     with col1:
         prompt = st.chat_input("Ask about financial metrics, trends, or analysis...")
-    
     with col2:
         use_cfa = st.toggle("🎓 CFA", value=False, help="Enable for deep analytical insights with reasoning")
-    
+
     if prompt:
         # Add user message
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
             st.write(prompt)
-        
-        # Generate response
+        # Generate response, pass chat history (excluding system messages)
+        chat_history = [msg for msg in st.session_state.messages if msg["role"] in ("user", "assistant")]
         with st.chat_message("assistant"):
             # Show processing mode
             if use_cfa:
                 st.caption("🎓 CFA Analysis Mode")
                 with st.spinner("Analyzing with CFA intelligence..."):
-                    result = rag_system.query(prompt)
+                    result = rag_system.process_query(prompt, use_cfa=True, chat_history=chat_history)
             else:
                 st.caption("⚡ Fast Analysis Mode")
                 with st.spinner("Retrieving financial data..."):
-                    result = rag_system.query(prompt)
-            
+                    result = rag_system.process_query(prompt, use_cfa=False, chat_history=chat_history)
             # Display CFA reasoning if available
             if result.get("cfa_reasoning"):
                 with st.expander("🧠 CFA Analytical Reasoning", expanded=True):
                     st.write(result["cfa_reasoning"])
-            
             # Display main response
             response = result["response"]
             st.write(response)
-            
             # Show performance info
             if result.get("chunks_used"):
                 st.caption(f"📄 Analyzed {result['chunks_used']} document chunks")
-            
             # Handle errors
             if result.get("error"):
                 st.error(f"Error: {result['error']}")
-        
         # Add enhanced assistant message
         assistant_message = {
             "role": "assistant", 
